@@ -7,6 +7,7 @@ Allow: /
 Sitemap: ${new URL('sitemap-index.xml', import.meta.env.SITE).href}
 `.trim()
 
+
 export const GET: APIRoute = () => {
   return new Response(robotsTxt, {
     headers: {
