@@ -23,12 +23,12 @@ published: 2024-12-22
 > 5. **但是在很多场景下，用户并不想要共享，比如你登录到了一个公共的计算机，例如Athena，你不会想要其他人来读取你的文件。所以在共享的同时，我们也希望在没有必要的时候不共享。这里我们称为Security或者Permission System或者是Access Control System。**
 > 6. **另一个人们认为操作系统应该具有的价值是：如果你在硬件上花费了大量的金钱，你会期望你的应用程序拥有硬件应该提供的完整性能，但是很多时候你只负责应用程序编程，你会期望操作系统也必须保证自身提供的服务不会阻止应用程序获得高性能。所以操作系统需要至少不阻止应用程序获得高性能，甚至需要帮助应用程序获得高性能（Performance）。**
 > 7. **最后，对于大部分操作系统，必须要支持大量不同类型的应用程序，或许这是一个笔记本，正在运行文本编辑器，正在运行游戏，或许你的操作系统需要支持数据库服务器和云计算。通常来说，设计并构造一个操作系统代价是非常大的，所以人们总是希望在相同的操作系统上，例如Linux，运行大量的任务。我认为大部分人都已经跑过Linux，并使用了我刚刚描述的所有的场景。所以，同一个操作系统需要能够支持大量不同的用户场景。**
->
+> 
 
-![](https://raw.githubusercontent.com/ScuDays/MyImg/master/9cad3ebcb433436286eed1047fbb8cce.png)
+![|535](https://raw.githubusercontent.com/ScuDays/MyImg/master/9cad3ebcb433436286eed1047fbb8cce.png)
 
 ## 操作系统架构
-![](https://raw.githubusercontent.com/ScuDays/MyImg/master/be423d2631b468ff97829ad4276213be.png)
+![550](https://raw.githubusercontent.com/ScuDays/MyImg/master/be423d2631b468ff97829ad4276213be.png)
 
 ## 文件描述符
 ### 内核为每个进程维护一张文件描述符表  

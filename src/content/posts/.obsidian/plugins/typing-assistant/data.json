@@ -1,0 +1,24 @@
+{
+  "showPlaceholder": true,
+  "cmdsSorting": [
+    "insert-code",
+    "insert-bulletList",
+    "insert-divide",
+    "insert-numberList",
+    "insert-heading1",
+    "insert-heading2",
+    "insert-heading3",
+    "insert-heading4",
+    "insert-heading5",
+    "insert-heading6",
+    "insert-tag",
+    "insert-math",
+    "insert-quote",
+    "insert-embed",
+    "bookmark",
+    "insert-todo",
+    "insert-note-callout",
+    "insert-table"
+  ],
+  "disableSelectionMenu": false
+}

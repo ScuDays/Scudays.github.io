@@ -1,0 +1,163 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Lec03：OS Organization and System Calls (Frans)",
+      "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+    },
+    {
+      "basename": "Lec01：Introduction and Examples (Robert)",
+      "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+    },
+    {
+      "basename": "Lab：Unix utilities",
+      "path": "6S081/Lab/Lab：Unix utilities.md"
+    },
+    {
+      "basename": "Lab：traps",
+      "path": "6S081/Lab/Lab：traps.md"
+    },
+    {
+      "basename": "Lab：System calls",
+      "path": "6S081/Lab/Lab：System calls.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "6S081/Lab/Lab：Multithreading.md"
+    },
+    {
+      "basename": "Lab：lock",
+      "path": "6S081/Lab/Lab：lock.md"
+    },
+    {
+      "basename": "Lab：lazy page allocation",
+      "path": "6S081/Lab/Lab：lazy page allocation.md"
+    },
+    {
+      "basename": "Lab：Copy-on-Write Fork for xv6",
+      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
+    },
+    {
+      "basename": "Lab：page tables",
+      "path": "docs/6S081/Lab/Lab：page tables.md"
+    },
+    {
+      "basename": "note-6S081",
+      "path": "docs/模板/note-6S081.md"
+    },
+    {
+      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
+      "path": "docs/6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
+    },
+    {
+      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
+      "path": "docs/6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
+    },
+    {
+      "basename": "Lec04：Page tables (Frans)",
+      "path": "docs/6S081/Lecture/Lec04：Page tables (Frans).md"
+    },
+    {
+      "basename": "Lec03：OS Organization and System Calls (Frans)",
+      "path": "docs/6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+    },
+    {
+      "basename": "Lec01：Introduction and Examples (Robert)",
+      "path": "docs/6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+    },
+    {
+      "basename": "2024-12-24",
+      "path": "docs/日记/2024-12-24.md"
+    },
+    {
+      "basename": "2024-12-22",
+      "path": "docs/日记/2024-12-22.md"
+    },
+    {
+      "basename": "Invalid date",
+      "path": "docs/日记/Invalid date.md"
+    },
+    {
+      "basename": "Lec15：Crash recovery (Frans)",
+      "path": "docs/6S081/Lecture/Lec15：Crash recovery (Frans).md"
+    },
+    {
+      "basename": "Lec14：File systems (Frans)",
+      "path": "docs/6S081/Lecture/Lec14：File systems (Frans).md"
+    },
+    {
+      "basename": "Lec13：Sleep & Wake up (Robert)",
+      "path": "docs/6S081/Lecture/Lec13：Sleep & Wake up (Robert).md"
+    },
+    {
+      "basename": "Lec11：Thread switching (Robert)",
+      "path": "docs/6S081/Lecture/Lec11：Thread switching (Robert).md"
+    },
+    {
+      "basename": "Lec10：Multiprocessors and locking (Frans)",
+      "path": "docs/6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md"
+    },
+    {
+      "basename": "Lec09：Interrupts (Frans)(外部中断)",
+      "path": "docs/6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md"
+    },
+    {
+      "basename": "Lec08：Page faults (Frans)",
+      "path": "docs/6S081/Lecture/Lec08：Page faults (Frans).md"
+    },
+    {
+      "basename": "Lab：Unix utilities",
+      "path": "docs/6S081/Lab/Lab：Unix utilities.md"
+    },
+    {
+      "basename": "Lab：traps",
+      "path": "docs/6S081/Lab/Lab：traps.md"
+    },
+    {
+      "basename": "Lab：System calls",
+      "path": "docs/6S081/Lab/Lab：System calls.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "docs/6S081/Lab/Lab：Multithreading.md"
+    },
+    {
+      "basename": "Lab：lock",
+      "path": "docs/6S081/Lab/Lab：lock.md"
+    },
+    {
+      "basename": "Lab：lazy page allocation",
+      "path": "docs/6S081/Lab/Lab：lazy page allocation.md"
+    },
+    {
+      "basename": "Lab：Copy-on-Write Fork for xv6",
+      "path": "docs/6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/index.md"
+    },
+    {
+      "basename": "Lec04：Page tables (Frans)",
+      "path": "docs/test/Lec04：Page tables (Frans).md"
+    },
+    {
+      "basename": "笔记格式",
+      "path": "docs/6S081/other/笔记格式.md"
+    },
+    {
+      "basename": "RISCV指令",
+      "path": "docs/6S081/other/RISCV指令.md"
+    },
+    {
+      "basename": "LEC复习",
+      "path": "docs/6S081/other/LEC复习.md"
+    },
+    {
+      "basename": "6.S081_进度表",
+      "path": "docs/6S081/other/6.S081_进度表.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "omitBookmarks": false
+}

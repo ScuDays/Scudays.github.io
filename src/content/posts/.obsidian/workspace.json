@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "289f3d889f1c788a",
+    "type": "split",
+    "children": [
+      {
+        "id": "94ab2ca02a0707de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd90290d0e4345e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lec03：OS Organization and System Calls (Frans)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eb14fd2a3d6b2caa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e4d6e1c1a844d48",
+        "type": "tabs",
+        "dimension": 63.57039187227866,
+        "children": [
+          {
+            "id": "3f45112cc345577f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8e80887455ffc6e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d9be50b7aa279ab0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0e38d9a2cdce5106",
+        "type": "tabs",
+        "dimension": 36.42960812772134,
+        "children": [
+          {
+            "id": "244316fd25f1296f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5
+  },
+  "right": {
+    "id": "bfc5138eefd19587",
+    "type": "split",
+    "children": [
+      {
+        "id": "936d023ca1951574",
+        "type": "tabs",
+        "dimension": 42.75956284153006,
+        "children": [
+          {
+            "id": "0dbb7a320a458d55",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "37f628702e984d96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+              },
+              "icon": "lucide-list",
+              "title": "Lec03：OS Organization and System Calls (Frans) 的大纲"
+            }
+          },
+          {
+            "id": "93915358dd6ed6f9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "fcb1c5f6affa587d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Lec03：OS Organization and System Calls (Frans) 的反向链接列表"
+            }
+          },
+          {
+            "id": "76a63c6c05bc0951",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Lec03：OS Organization and System Calls (Frans) 的出链列表"
+            }
+          },
+          {
+            "id": "6104ce1eb3174e18",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "78be13e3902ad0e9",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "853ada6b54144102",
+        "type": "tabs",
+        "dimension": 57.24043715846994,
+        "children": [
+          {
+            "id": "4d860b861a5a1635",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "93915358dd6ed6f9",
+  "lastOpenFiles": [
+    "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
+    "6S081/Lab/Lab：Unix utilities.md",
+    "6S081/Lab/Lab：traps.md",
+    "6S081/Lab/Lab：System calls.md",
+    "6S081/Lab/Lab：Multithreading.md",
+    "6S081/Lab/Lab：lock.md",
+    "6S081/Lab/Lab：lazy page allocation.md",
+    "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md",
+    "docs/模板/note-6S081.md",
+    "docs/6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md",
+    "docs/6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md",
+    "docs/6S081/Lecture/Lec04：Page tables (Frans).md",
+    "docs/6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+    "docs/6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
+    "docs/日记/2024-12-24.md",
+    "docs/日记/2024-12-22.md",
+    "docs/日记/Invalid date.md",
+    "docs/6S081/Lecture/Lec15：Crash recovery (Frans).md",
+    "docs/6S081/Lecture/Lec14：File systems (Frans).md",
+    "docs/6S081/Lecture/Lec13：Sleep & Wake up (Robert).md",
+    "docs/6S081/Lecture/Lec11：Thread switching (Robert).md",
+    "docs/6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md",
+    "docs/6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md",
+    "docs/6S081/Lecture/Lec08：Page faults (Frans).md",
+    "docs/6S081/Lab/Lab：Unix utilities.md",
+    "docs/6S081/Lab/Lab：traps.md",
+    "docs/模板",
+    "docs/日记",
+    "site/assets/javascripts/glightbox.min.js",
+    "site/assets/stylesheets/glightbox.min.css",
+    "site/search/search_index.json",
+    "site/search",
+    "site/test/Lab/用户管理与文件权限/index.html",
+    "site/test/Lab/用户管理与文件权限",
+    "site/test/Lab/Lec06：Isolation & system call entry_exit (Robert)/index.html",
+    "site/test/Lab/Lec06：Isolation & system call entry_exit (Robert)",
+    "site/assets/images/home/light.jpg",
+    "site/assets/images/home/dark.jpg",
+    "site/assets/images/WeChat.jpg",
+    "site/assets/images/pdf.svg",
+    "site/assets/images/qq.jpg",
+    "site/assets/images/favicon.png",
+    "site/assets/images/avatar.jpg",
+    "site/assets/github/github-light.png",
+    "site/assets/github/github-dark.png",
+    "未命名.canvas",
+    "docs/test/Lab/image.png"
+  ]
+}
