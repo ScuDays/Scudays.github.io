@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux文件目录",
-      "path": "Embedded Linux/Linux文件目录.md"
-    },
-    {
       "basename": "Linux系统简介",
       "path": "Embedded Linux/Linux系统简介.md"
+    },
+    {
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
     },
     {
       "basename": "Lec01：Introduction and Examples (Robert)",

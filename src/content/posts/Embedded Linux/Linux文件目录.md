@@ -5,7 +5,7 @@ modify: 2024-12-23 16:25:51
 author: days
 category: Embedded Linux
 published: 2024-12-23
-draft: true
+draft: false
 description: 主要讲解Linux系统的文件目录
 image: https://raw.githubusercontent.com/ScuDays/MyImg/master/202412232157147.png
 ---

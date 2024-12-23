@@ -5,7 +5,7 @@ modify: 2024-12-23 16:30:17
 author: days
 category: Embedded Linux
 published: 2024-12-23
-draft: true
+draft: false
 description: 主要讲解Linux系统的历史及一些基本概念。
 ---
 ## Linux 发展史

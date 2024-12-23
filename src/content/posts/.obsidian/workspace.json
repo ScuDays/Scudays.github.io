@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md",
+                "file": "Embedded Linux/Linux系统简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux文件目录"
+              "title": "Linux系统简介"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md"
+                "file": "Embedded Linux/Linux系统简介.md"
               },
               "icon": "lucide-list",
-              "title": "Linux文件目录 的大纲"
+              "title": "Linux系统简介 的大纲"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md",
+                "file": "Embedded Linux/Linux系统简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linux文件目录 的反向链接列表"
+              "title": "Linux系统简介 的反向链接列表"
             }
           },
           {
@@ -152,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md",
+                "file": "Embedded Linux/Linux系统简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux文件目录 的出链列表"
+              "title": "Linux系统简介 的出链列表"
             }
           },
           {
@@ -231,10 +231,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f628702e984d96",
+  "active": "6a35e2398fe681c2",
   "lastOpenFiles": [
-    "Embedded Linux/Linux系统简介.md",
     "Embedded Linux/Linux文件目录.md",
+    "Embedded Linux/Linux系统简介.md",
     "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
     "_模板/日记.md",
     "_模板/note-Embedded Linux.md",
