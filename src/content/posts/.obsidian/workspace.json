@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用命令/Linux命令行.md",
+                "file": "Embedded Linux/Linux系统简介.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux命令行"
+              "title": "Linux系统简介"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用命令/Linux命令行.md"
+                "file": "Embedded Linux/Linux文件目录.md"
               },
               "icon": "lucide-list",
-              "title": "Linux命令行 的大纲"
+              "title": "Linux文件目录 的大纲"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用命令/Linux命令行.md",
+                "file": "Embedded Linux/Linux文件目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linux命令行 的反向链接列表"
+              "title": "Linux文件目录 的反向链接列表"
             }
           },
           {
@@ -152,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用命令/Linux命令行.md",
+                "file": "Embedded Linux/Linux文件目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux命令行 的出链列表"
+              "title": "Linux文件目录 的出链列表"
             }
           },
           {
@@ -191,6 +191,20 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
+            }
+          },
+          {
+            "id": "08446f6bfce5b98f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -229,19 +243,20 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
   "active": "6a35e2398fe681c2",
   "lastOpenFiles": [
+    "Embedded Linux/Linux文件目录.md",
+    "常用命令/Linux命令行.md",
+    "Embedded Linux/Linux系统简介.md",
     "_模板/note-Embedded Linux.md",
     "_模板/note-6S081.md",
     "_模板/日记.md",
     "_模板/常用命令.md",
-    "常用命令/Linux命令行.md",
-    "Embedded Linux/Linux系统简介.md",
     "常用命令",
-    "Embedded Linux/Linux文件目录.md",
     "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
     "Embedded Linux",
     "日记/2024-12-23记.md",

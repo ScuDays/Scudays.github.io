@@ -295,6 +295,7 @@ published: 2024-12-22
 **<font style="color:rgb(27, 27, 27);">在 未修改的XV6中，exec() 中，操作系统会加载程序内存的text，data区域，并且以 eager (立即) 的方式将这些区域加载进page table。</font>**
 
 ![|469](https://raw.githubusercontent.com/ScuDays/MyImg/master/bfdfd9052c57b843d5a944b95f537b27.jpeg)
+
 ![|272](https://raw.githubusercontent.com/ScuDays/MyImg/master/16ea26cc9113d3ea15b09f3e6baf88d8.png)
 
 ---

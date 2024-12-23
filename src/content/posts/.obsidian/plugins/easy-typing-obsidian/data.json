@@ -53,11 +53,11 @@
   "userSelRuleSettingsOpen": true,
   "userDelRuleSettingsOpen": true,
   "userCvtRuleSettingsOpen": true,
-  "StrictModeEnter": false,
-  "StrictLineMode": "enter_twice",
+  "StrictModeEnter": true,
+  "StrictLineMode": "mix_mode",
   "EnhanceModA": false,
   "TryFixChineseIM": true,
-  "PuncRectify": false,
+  "PuncRectify": true,
   "FixMacOSContextMenu": false,
   "TryFixMSIME": false
 }

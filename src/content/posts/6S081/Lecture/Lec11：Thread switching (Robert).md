@@ -9,6 +9,7 @@ published: 2024-12-22
 # Lec11：Thread switching (Robert)
 ## 总结：
 ### 上下文切换
+
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/a0130c8603bcdbd4e832c783c5186ac6.png)
 
 **<font style="color:rgb(51, 51, 51);">图7.1概述了从一个用户进程（旧进程）切换到另一个用户进程（新进程）所涉及的步骤：</font>**
@@ -29,6 +30,7 @@ published: 2024-12-22
 **Swtch接受两个参数：struct context *old和struct context *new。它将当前寄存器保存在old中，从new中加载寄存器，然后返回。**
 
 :::color3
+
 这里不太容易理解，这里举个课程视频中的例子：
 
 **以cc切换到ls为例，且ls此前运行过**
@@ -49,6 +51,7 @@ b. ls程序的内核线程对应的内核寄存器已经保存在对应的contex
 :::
 
 ## 11.1 线程（Thread）概述 
+
 讨论线程以及XV6如何实现线程切换。这节课与之前介绍的系统调用、中断、页表和锁的课程一样，都是关于XV6底层实现的内容。我们将探讨XV6如何在多个线程之间进行切换。  
 计算机需要运行多线程的原因包括：
 
@@ -138,6 +141,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 当调度器选择运行一个RUNABLE线程时，其中一个关键步骤就是将之前保存在内存中的程序计数器和寄存器值重新加载回对应的CPU上。
 
 ## 11.3 线程切换（一）
+
 接下来，我将通过两张图来介绍XV6中线程切换的实现。
 
 **首先，在XV6系统中，可以运行多个用户空间进程，如C编译器（CC）、LS和Shell等。每个进程都有独立的内存空间，特别是每个进程都有自己的用户程序栈。当一个进程运行时，它实际上是在执行该进程中的一个用户线程，并且该线程会在RISC-V处理器上拥有自己的程序计数器和寄存器。**
@@ -154,6 +158,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 **正如先前所述，抢占式调度机制通过定时器中断实现从一个用户进程到另一个用户进程的切换。**
 
 :::success
+
 + **概念：当定时器中断处理过程中 XV6 内核决定执行上下文切换时**
 
 :::
@@ -162,6 +167,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 2. **在完成这一内核级别的转换后，系统会使用先前保存在陷阱帧（trapframe）中的信息恢复第二个用户进程的状态，从而实现从内核模式回到用户模式的转变，并继续执行该用户进程。此过程确保了不同用户进程间平滑且高效的切换。**
 
 :::success
+
 + **具体例子：当XV6从CC程序的内核线程切换到LS程序的内核线程时**
 
 :::
@@ -174,6 +180,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 6. **最后恢复执行LS。**
 
 :::success
+
 + **这里核心点在于，在XV6中，任何时候都需要经历：**
 
 :::
@@ -285,6 +292,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 
 ## 11.5 进程切换示例程序
 ### proc结构体
+
 接下来，我们切换到代码。我们先来看一下proc.h中的proc结构体，从结构体中我们可以看到很多之前介绍的内容。
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MPlA8TdJmidn6m4MngD%252F-MPnrlXVjhqSv55SaNaq%252Fimage.png%3Falt%3Dmedia%26token%3D11b1bceb-efc7-4bdb-8ef1-511e44f8b149&width=768&dpr=4&quality=100&sign=ecdae2f9&sv=1)
@@ -296,6 +304,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 + **lock**字段保护了很多数据，目前来说至少保护了对于**state**字段的更新。举个例子，因为有锁的保护，两个CPU的调度器线程不会同时拉取同一个RUNABLE进程并运行它
 
 ### 演示程序
+
 我接下来会运行一个简单的演示程序，在这个程序中我们会从一个进程切换到另一个。
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MPlA8TdJmidn6m4MngD%252F-MPntE1YFDaXfM--9WoX%252Fimage.png%3Falt%3Dmedia%26token%3Dd67e55ae-f178-406a-8764-e59d4aac0070&width=768&dpr=4&quality=100&sign=7075160a&sv=1)
@@ -382,6 +391,7 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 >
 
 ## 11.6 线程切换 --- yield/sched函数
+
 回到devintr函数返回到usertrap函数的地方。在gdb里多输入几次“step”命令，直到你进入yield函数的调用。yield函数是线程切换的第一步，下面是它的具体内容：
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MPo3XwIXuht-vwuwogZ%252F-MPqDSuDUAjxhmKs3bRj%252Fimage.png%3Falt%3Dmedia%26token%3Da35fcd6d-48db-4d1f-9990-b18150ecada7&width=768&dpr=4&quality=100&sign=d4fb02b3&sv=1)
@@ -404,9 +414,11 @@ XV6操作系统结合了两种线程管理策略：首先，线程可以在所�
 **接下来，我将略过这些检查步骤，直接进入位于函数末尾的 swtch 调用部分。**
 
 ## 11.7 线程切换 --- switch函数
+
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252Fsync%252Ff4cc050e3bff8a56c3209994b0c48950af53fc4d.png%3Fgeneration%3D1617597330870174%26alt%3Dmedia&width=768&dpr=4&quality=100&sign=60a514b9&sv=1)
 
 :::success
+
 1. **swtch函数会将当前的内核线程的寄存器保存到p->context中。swtch函数的另一个参数c->context，c表示当前CPU的结构体。**
 2. **CPU结构体中的context保存了当前CPU核的调度器线程的寄存器。所以swtch函数在保存完当前内核线程的内核寄存器之后，就会恢复当前CPU核的调度器线程的寄存器，并继续执行当前CPU核的调度器线程。**
 
@@ -572,6 +584,7 @@ sp寄存器的值现在在内存中的stack0区域中。这个区域实际上是
 **所以线程切换的过程中，处理器中的寄存器是唯一的不稳定状态，需要保存并恢复。而所有其他在内存中的数据会保存在内存中不被改变，所以不用特意保存并恢复。我们只是保存并恢复了处理器中的寄存器，因为我们想在新的线程中也使用相同的一组寄存器。**
 
 ## 11.9 线程第一次调用switch函数
+
 （注，首先是学生提问Linux内一个进程多个线程的实现方式，因为在XV6中，一个进程只有一个用户线程）
 
 > 学生提问：操作系统都带了线程的实现，如果想要在多个CPU上运行一个进程内的多个线程，那需要通过操作系统来处理而不是用户空间代码，是吧？那这里的线程切换是怎么工作的？是每个线程都与进程一样了吗？操作系统还会遍历所有存在的线程吗？比如说我们有8个核，每个CPU核都会在多个进程的更多个线程之间切换。同时我们也不想只在一个CPU核上切换一个进程的多个线程，是吧？

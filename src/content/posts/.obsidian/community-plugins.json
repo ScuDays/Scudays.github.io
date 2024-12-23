@@ -1,5 +1,4 @@
 [
-  "editing-toolbar",
   "obsidian-git",
   "obsidian-markdown-formatting-assistant-plugin",
   "typing-assistant",
@@ -18,5 +17,8 @@
   "templater-obsidian",
   "obsidian-outliner",
   "obsidian-wakatime",
-  "obsidian-better-command-palette"
+  "obsidian-better-command-palette",
+  "hard-breaks",
+  "editing-toolbar",
+  "obsidian-linter"
 ]

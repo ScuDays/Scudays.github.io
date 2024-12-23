@@ -124,6 +124,7 @@ published: 2024-12-22
 3. <font style="color:#000000;">这个方案中，我们只需要3 * 512个PTE（注，12KB 内存）。所需的空间大大减少了。这是实际上硬件采用这种层次化的3级page directory结构的主要原因。</font>
 
 #### <font style="color:#000000;">标志位</font>
+
 <font style="color:#000000;">接下来，让我们看看PTE中的Flag，因为它也很重要。每个PTE的低10bit是一堆标志位：</font>
 
 + <font style="color:#000000;">第一个标志位是Valid。如果Valid bit位为1，那么表明这是一条合法的PTE，你可以用它来做地址翻译。对于刚刚举得那个小例子（注，应用程序只用了1个page的例子），我们只使用了3个page directory，每个page directory中只有第0个PTE被使用了，所以只有第0个PTE的Valid bit位会被设置成1，其他的511个PTE的Valid bit为0。这个标志位告诉MMU，你不能使用这条PTE，因为这条PTE并不包含有用的信息。</font>
@@ -305,4 +306,3 @@ published: 2024-12-22
 >
 
 <font style="color:#000000;"></font>
-

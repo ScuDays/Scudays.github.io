@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux系统简介",
+      "path": "Embedded Linux/Linux系统简介.md"
+    },
+    {
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
+    },
+    {
       "basename": "Linux命令行",
       "path": "常用命令/Linux命令行.md"
     },
@@ -19,14 +27,6 @@
     {
       "basename": "常用命令",
       "path": "_模板/常用命令.md"
-    },
-    {
-      "basename": "Linux系统简介",
-      "path": "Embedded Linux/Linux系统简介.md"
-    },
-    {
-      "basename": "Linux文件目录",
-      "path": "Embedded Linux/Linux文件目录.md"
     },
     {
       "basename": "Lec01：Introduction and Examples (Robert)",

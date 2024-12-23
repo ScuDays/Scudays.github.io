@@ -48,6 +48,7 @@ Logging最初源于数据库技术，现已被许多文件系统采用。我们�
 
 ## **<font style="color:rgb(38, 38, 38);">15.2 File system crash 示例</font>**
 ### xv6 文件系统分布
+
 为了更清晰的理解这里的风险，让我们看一些基于XV6的例子，并看一下哪里可能出错。
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MS5avG44oTj9OPuULJh%252F-MSAXQOgrMd0_xwG-Uay%252Fimage.png%3Falt%3Dmedia%26token%3D160db352-7dd5-4f4b-9827-a50008e5758b&width=768&dpr=4&quality=100&sign=aa9181a2&sv=1)
@@ -61,6 +62,7 @@ Logging最初源于数据库技术，现已被许多文件系统采用。我们�
 ---
 
 ### 潜在问题分析
+
 在上节课中，我们看了一下在创建文件时，操作系统与磁盘**block**的交互过程（注，详见14.5）：
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MS5avG44oTj9OPuULJh%252F-MSAYdy7tK51ltglbIKH%252Fimage.png%3Falt%3Dmedia%26token%3Df3478cf9-3024-4eb0-9062-979a627398dc&width=768&dpr=4&quality=100&sign=d4ca4c48&sv=1)
@@ -122,6 +124,7 @@ Logging最初源于数据库技术，现已被许多文件系统采用。我们�
 
 ## 15.3 File system logging 日志
 ### logging 优点
+
 在本节课中，我们将探讨一种针对文件系统崩溃后问题的有效解决方案——日志记录（logging）。
 
 1. **atomic fscalls 原子性保证**：日志记录能够确保文件系统的系统调用具有原子性。这意味着，当执行如创建或写入等系统调用时，其效果将是全有或全无的；即要么所有更改完整地反映到存储介质上，要么完全不发生任何变更。这种方式有效避免了部分写操作导致的数据不一致问题。
@@ -169,6 +172,7 @@ Logging最初源于数据库技术，现已被许多文件系统采用。我们�
 >
 
 ### logging 实现
+
 Logging的实现方式有很多，我这里展示的指示一种非常简单的方案，这个方案中clean log和install log都被推迟了。接下来我会运行这种非常简单的实现方式，
 
 所有的这些协议都遵循了write ahead rule，也就是说在写入commit记录之前，你需要确保所有的写操作都在log中。在这个范围内，还有大量设计上的灵活性可以用来设计特定的logging协议。
@@ -195,6 +199,7 @@ XV6的**log**结构如往常一样也是极其的简单。
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MS_F6nYy0utF738c_Y7%252F-MS_LgeEJdY8hOFkuQBW%252Fimage.png%3Falt%3Dmedia%26token%3D14090c19-6cca-4918-9fdc-b03add2ac1f7&width=768&dpr=4&quality=100&sign=3b9782c9&sv=1)
 
 ## 15.4 log_write函数
+
 接下来让我们看一些代码来帮助我们理解这里是怎么工作的。
 
 前面我提过事务（transaction），也就是我们不应该在所有的写操作完成之前写入commit record。这意味着文件系统操作必须表明事务的开始和结束。
@@ -232,6 +237,7 @@ XV6 文件系统的调用遵循这一模式：先调用 begin_op，然后执行�
 简而言之，所有修改 block 或 block cache 的文件系统调用都会尝试更新内存中的 log header，除非目标 block 已经存在于要写入磁盘的列表里。
 
 ## 15.5 end_op函数
+
 接下来我们看看位于log.c中的end_op函数中会发生什么？
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MS_F6nYy0utF738c_Y7%252F-MS_TZfXthFK7G6TBjwQ%252Fimage.png%3Falt%3Dmedia%26token%3Dfe85217e-cd9f-48d3-909b-46f08611a800&width=768&dpr=4&quality=100&sign=36efebfa&sv=1)
@@ -301,6 +307,7 @@ install_trans 是恢复过程中执行的核心函数，它的作用是：
 在commit函数中，install结束之后，会将log header中的n设置为0，再将log header写回到磁盘中。将n设置为0的效果就是清除log。
 
 ## 15.6 File system recovering 
+
 接下来我们看一下发生在XV6的启动过程中的文件系统的恢复流程。
 
 **当系统crash并重启了，在XV6启动过程中做的一件事情就是调用initlog函数。**
@@ -325,6 +332,7 @@ install_trans 是恢复过程中执行的核心函数，它的作用是：
 这就是恢复的全部流程。如果我们在install_trans函数中又crash了，也不会有问题，因为之后再重启时，XV6会再次调用initlog函数，再调用recover_from_log来重新install log。如果我们在commit之前crash了多次，在最终成功commit时，log可能会install多次。
 
 ## 15.7 Log写磁盘流程 
+
 我已经在bwrite函数中加了一个print语句。bwrite函数是block cache中实际写磁盘的函数，所以我们将会看到实际写磁盘的记录。
 
 在上节课（Lec 14）我将print语句放在了log_write中，log_write只能代表文件系统操作的记录，并不能代表实际写磁盘的记录。我们这里会像上节课一样执行echo "hi" > x，并看一下实际的写磁盘过程。
@@ -415,6 +423,7 @@ install_trans 是恢复过程中执行的核心函数，它的作用是：
 所以，即使是XV6中这样一个简单的文件系统，也有一些复杂性和挑战。
 
 ### 最后总结：
+
 这节课讨论的是使用logging来解决crash safety或者说多个步骤的文件系统操作的安全性。这种方式对于安全性来说没有问题，但是性能不咋地。
 
 > 学生提问：前面说到cache size至少要跟log size一样大，如果它们一样大的话，并且log pin了30个block，其他操作就不能再进行了，因为buffer中没有额外的空间了。

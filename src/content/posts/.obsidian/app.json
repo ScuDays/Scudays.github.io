@@ -2,8 +2,8 @@
   "showLineNumber": true,
   "vimMode": false,
   "showRibbon": true,
-  "readableLineLength": false,
-  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
   "rightToLeft": false,
   "promptDelete": false
 }

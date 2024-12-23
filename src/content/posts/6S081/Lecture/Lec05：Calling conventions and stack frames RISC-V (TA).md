@@ -54,6 +54,7 @@ published: 2024-12-22
 ![|768](https://raw.githubusercontent.com/ScuDays/MyImg/master/51a51c08c5fd7a1906160766544943b2.jpeg)
 
 ## <font style="color:#000000;">5.4 RISC-V寄存器</font>
+
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/6191616ebd37535e26016bcba4d1e7ea.jpeg)
 
 + **<font style="color:#000000;">寄存器的作用和重要性</font>**<font style="color:#000000;">：寄存器是CPU上用于存储数据的预定义位置，对于执行汇编代码尤为重要。寄存器比内存有更快的数据访问速度，因此在进行算术运算（如加减法）时，优先在寄存器上操作。数据首先从内存加载到寄存器，操作完成后，结果可以存储回内存或传递给其他寄存器。</font>
@@ -70,6 +71,7 @@ published: 2024-12-22
 + **<font style="color:#000000;">寄存器的连续性和特殊情况</font>**<font style="color:#000000;">：s1寄存器与其他s寄存器分开的原因是其在压缩指令中的特殊应用。</font>
 
 ## <font style="color:#000000;">5.5 Stack 栈帧</font>
+
 <font style="color:#000000;">下面是一个非常简单的栈的结构图，其中每一个区域都是一个Stack Frame，每执行一次函数调用就会产生一个Stack Frame。</font>
 
 ![|677](https://raw.githubusercontent.com/ScuDays/MyImg/master/49d659f4b057ab03e41519208241acb9.jpeg)

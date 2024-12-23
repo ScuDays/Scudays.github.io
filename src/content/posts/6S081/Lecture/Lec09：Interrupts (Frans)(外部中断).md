@@ -8,6 +8,7 @@ published: 2024-12-22
 ---
 # Lec09：Interrupts (Frans)(外部中断)
 ## 9.1 真实操作系统内存使用情况
+
 我想先讨论一下内存是如何被真实的操作系统（而不是像XV6这样的教学操作系统）所使用。
 
 ---
@@ -35,6 +36,7 @@ published: 2024-12-22
 **所以，我们上节课讨论的基于虚拟内存和 page fault 提供的非常酷的功能在这都有使用，比如说 demand paging 。**
 
 ## 9.2 Interrupt 硬件部分（外部中断）
+
 今天课程的主要内容是中断。
 
 中断对应的场景很简单，就是硬件想要得到操作系统的关注。
@@ -159,6 +161,7 @@ published: 2024-12-22
 >
 
 ## 9.4 XV6设置打开硬件中断的通路（设备->PLIC->CPU）
+
 下面讨论下在 XV6 中如何打开**设备->PLIC->CPU 这条路中的中断，**如何
 
 ---
@@ -406,6 +409,7 @@ published: 2024-12-22
 **这样，驱动的 top 部分和 bottom 部分就解耦开了。**
 
 ## 9.7 Interrupt相关的并发
+
 接下来我们讨论一下与中断相关的并发，并发加大了中断编程的难度。这里的并发包括以下几个方面：
 
 + Between device and CPU. 在设备与CPU并行时，需要引入一些并发模型，如生产者/消费者模型，在 UART 处理键盘输入时，设备是生产者，CPU是消费者；但在处理输出时，则反之。
@@ -440,6 +444,7 @@ producer 可以一直写入数据，直到写指针 + 1 等于读指针，因为
 以上就是 Shell 输出提示符 “$” 的全部内容。如你们所见，过程还挺复杂的，许多代码一起工作才将这两个字符传输到了 Console。
 
 ## 9.8 UART读取键盘输入
+
 在 UART 的另一侧，会有类似的事情发生，有时 Shell 会调用 read 从键盘中读取字符。
 
  在 read 系统调用的底层，会调用 fileread 函数。在这个函数中，如果读取的文件类型是设备，会调用相应设备的 read 函数。
@@ -496,4 +501,3 @@ producer 可以一直写入数据，直到写指针 + 1 等于读指针，因为
 + **soft 精细的调度机制与较短的关闭中断的 kernel code path 。**
 
 ![](https://mit-public-courses-cn-translatio.gitbook.io/~gitbook/image?url=https%3A%2F%2F1977542228-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MHZoT2b_bcLghjAOPsJ%252F-MNrxZk5JKK8WT1bCv_K%252F-MNs7Tl17pUS0sqmxtf8%252Fimage.png%3Falt%3Dmedia%26token%3D72c4aa65-b9ab-4b42-bf63-f0c0b515861d&width=768&dpr=4&quality=100&sign=eb821278&sv=1)
-

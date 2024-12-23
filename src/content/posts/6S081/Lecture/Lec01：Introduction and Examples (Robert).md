@@ -28,6 +28,7 @@ image: https://raw.githubusercontent.com/ScuDays/MyImg/master/202412230022851.pn
 ![|535](https://raw.githubusercontent.com/ScuDays/MyImg/master/9cad3ebcb433436286eed1047fbb8cce.png)
 
 ## 操作系统架构
+
 ![|511](https://raw.githubusercontent.com/ScuDays/MyImg/master/be423d2631b468ff97829ad4276213be.png)
 
 ## 文件描述符
@@ -66,4 +67,3 @@ image: https://raw.githubusercontent.com/ScuDays/MyImg/master/202412230022851.pn
 **这就是fork和exec分离的好处，我们可以在 fork 之后 exec 之前配置一些关键信息。**
 
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/a5862ec7db9ddcb67843a301f95ce0ea.png)
-

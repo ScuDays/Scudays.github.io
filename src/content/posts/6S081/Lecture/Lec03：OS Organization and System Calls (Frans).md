@@ -57,6 +57,7 @@ published: 2024-12-22
 **<font style="color:#000000;">当一个应用程序尝试执行一条特殊权限指令，但由于在user mode 不允许执行特殊权限指令，处理器会拒绝执行这条指令。通常来说，这时会将控制权限从user mode切换到kernel mode，当操作系统拿到控制权之后，或许会杀掉进程，因为应用程序执行了不该执行的指令。</font>**
 
 ## <font style="color:#000000;">User/Kernel mode切换</font>
+
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/2d65f259dcb8d59dc44a6d9ab45247af.png)
 
 + **<font style="color:#000000;">当在用户态的应用程序想要调用系统调用时，是如何切换到内核态并执行系统调用呢？</font>**
@@ -114,4 +115,3 @@ published: 2024-12-22
     2. **<font style="color:#000000;">在一个类似宏内核的紧耦合系统，各个组成部分，例如文件系统和虚拟内存系统，可以很容易的共享page cache。而在微内核中，每个部分之间都很好的隔离开了，这种共享更难实现。进而导致更难在微内核中得到更高的性能。</font>**
 
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/80c9209ba6f85825e1a168ab97a5e0d3.png)
-

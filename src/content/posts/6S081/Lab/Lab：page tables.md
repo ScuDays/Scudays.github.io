@@ -171,4 +171,3 @@ void vmprint_help(pagetable_t pagetable, int level)
 **回答：其实父进程和子进程的用户页表确实一样，但是我们要考虑到在复制结束之前，父进程如果结束并释放了，那么父进程的页表也会被清空，这个时候复制函数拥有的是一个指向 NULL 的页表，这就是问题。**
 
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/4ffa898314f82d6c3b99925b0bc21787.png)
-
