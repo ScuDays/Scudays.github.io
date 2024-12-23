@@ -1,11 +1,11 @@
 {
   "theme": "moonstone",
-  "textFontFamily": "冬青黑体简体中文",
+  "textFontFamily": "思源黑体旧字形",
   "monospaceFontFamily": "Cascadia Code",
-  "cssTheme": "",
+  "cssTheme": "Things",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
-  "interfaceFontFamily": "冬青黑体简体中文",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "思源黑体旧字形",
   "accentColor": "",
   "enabledCssSnippets": [
     "预览模式优化-空白行-行间距",

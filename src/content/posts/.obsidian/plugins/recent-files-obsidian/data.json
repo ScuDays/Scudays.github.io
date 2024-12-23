@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "note-Linux",
-      "path": "_模板/note-Linux.md"
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
     },
     {
-      "basename": "note-6S081",
-      "path": "_模板/note-6S081.md"
+      "basename": "Linux系统简介",
+      "path": "Embedded Linux/Linux系统简介.md"
+    },
+    {
+      "basename": "Lec01：Introduction and Examples (Robert)",
+      "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
     },
     {
       "basename": "日记",
       "path": "_模板/日记.md"
     },
     {
-      "basename": "2024-12-23记",
-      "path": "日记/2024-12-23记.md"
+      "basename": "note-Embedded Linux",
+      "path": "_模板/note-Embedded Linux.md"
     },
     {
-      "basename": "Lab：Multithreading",
-      "path": "6S081/Lab/Lab：Multithreading.md"
+      "basename": "2024-12-23记",
+      "path": "日记/2024-12-23记.md"
     },
     {
       "basename": "Lab：lock",
@@ -33,8 +37,12 @@
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
     },
     {
-      "basename": "Lec01：Introduction and Examples (Robert)",
-      "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+      "basename": "note-6S081",
+      "path": "_模板/note-6S081.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "6S081/Lab/Lab：Multithreading.md"
     },
     {
       "basename": "Lec04：Page tables (Frans)",

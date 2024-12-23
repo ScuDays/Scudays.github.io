@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "published": "text",
-    "title": "text"
+    "title": "text",
+    "description": "text"
   }
 }

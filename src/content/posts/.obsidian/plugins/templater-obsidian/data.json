@@ -20,7 +20,7 @@
     },
     {
       "folder": "_",
-      "template": "_模板/note-Linux.md"
+      "template": "_模板/note-Embedded Linux.md"
     }
   ],
   "enable_file_templates": false,

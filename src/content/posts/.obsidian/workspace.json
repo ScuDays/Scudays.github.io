@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d8296e1153c8a5c",
+        "id": "e112062253d78354",
         "type": "tabs",
         "children": [
           {
-            "id": "9fe9d2dffde2d21b",
+            "id": "6a35e2398fe681c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_模板/note-Linux.md",
-                "mode": "preview",
+                "file": "Embedded Linux/Linux文件目录.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note-Linux"
+              "title": "Linux文件目录"
             }
           }
         ]
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 317.5
   },
   "right": {
     "id": "bfc5138eefd19587",
@@ -104,28 +104,17 @@
       {
         "id": "936d023ca1951574",
         "type": "tabs",
-        "dimension": 42.75956284153006,
         "children": [
-          {
-            "id": "0dbb7a320a458d55",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
           {
             "id": "37f628702e984d96",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+                "file": "Embedded Linux/Linux文件目录.md"
               },
               "icon": "lucide-list",
-              "title": "Lec03：OS Organization and System Calls (Frans) 的大纲"
+              "title": "Linux文件目录 的大纲"
             }
           },
           {
@@ -144,17 +133,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+                "file": "Embedded Linux/Linux文件目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Lec03：OS Organization and System Calls (Frans) 的反向链接列表"
+              "title": "Linux文件目录 的反向链接列表"
             }
           },
           {
@@ -163,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+                "file": "Embedded Linux/Linux文件目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Lec03：OS Organization and System Calls (Frans) 的出链列表"
+              "title": "Linux文件目录 的出链列表"
             }
           },
           {
@@ -193,15 +182,7 @@
               "icon": "viewIcon",
               "title": "Markdown-Autocomplete"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "853ada6b54144102",
-        "type": "tabs",
-        "dimension": 57.24043715846994,
-        "children": [
+          },
           {
             "id": "4d860b861a5a1635",
             "type": "leaf",
@@ -213,10 +194,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "29e9d161c85f19a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dbb7a320a458d55",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,54 +231,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3f45112cc345577f",
+  "active": "37f628702e984d96",
   "lastOpenFiles": [
-    "_模板/note-6S081.md",
-    "_模板/日记.md",
-    "_模板/note-Linux.md",
-    "日记/2024-12-23记.md",
-    "日记/2024-12-24.md",
-    "日记/2024-12-23.md",
-    "日记",
-    "6S081/未命名",
-    "docs/日记/2024-12-20.md",
-    "docs/日记",
-    "docs",
-    "6S081/Lab/Lab：Multithreading.md",
-    "6S081/Lab/Lab：lock.md",
-    "6S081/Lab/Lab：lazy page allocation.md",
-    "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md",
-    "6S081/Lecture/这是一个测试.md",
+    "Embedded Linux/Linux系统简介.md",
+    "Embedded Linux/Linux文件目录.md",
     "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
-    "_模板",
-    "模板/note-6S081.md",
-    "模板",
-    "6S081/Lab/Lab：Copy-on-Write Fork for xv6 1.md",
-    "6S081/Lecture/Lec04：Page tables (Frans).md",
-    "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
-    "6S081/Lab/Lab：Unix utilities.md",
-    "6S081/Lab/Lab：traps.md",
-    "6S081/Lab/Lab：System calls.md",
-    "docs/模板/note-6S081.md",
-    "docs/6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md",
-    "docs/6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md",
-    "docs/6S081/Lecture/Lec04：Page tables (Frans).md",
-    "docs/6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
-    "docs/6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
-    "docs/模板",
-    "site/assets/javascripts/glightbox.min.js",
-    "site/assets/stylesheets/glightbox.min.css",
-    "site/search/search_index.json",
+    "_模板/日记.md",
+    "_模板/note-Embedded Linux.md",
+    "Embedded Linux",
+    "日记/2024-12-23记.md",
+    "6S081/Lab/Lab：lock.md",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.h",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.c",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/led/led.h",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/project/start.s",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/project/main.c",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/led/led.c",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/clock/clock.h",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/lcd/lcd.h",
+    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/lcd/lcd.c",
+    "_Linux视频教程课件与笔记/第9讲-使用Linux命令行(中)/使用Linux命令行.md",
+    "_Linux视频教程课件与笔记/第98讲 led字符设备驱动实验1/led字符设备驱动实验.md",
+    "_Linux视频教程课件与笔记/第97讲 open函数如何查找file_operation接口/open函数如何查找file_operation接口.md",
+    "_Linux视频教程课件与笔记/第96讲 如何创建一个设备文件/如何创建一个设备文件.md",
+    "_Linux视频教程课件与笔记/第95讲 从源码看如何保存file_operation接口/从源码看如何保存file_operation.md",
+    "_Linux视频教程课件与笔记/第94讲 从源码看如何管理设备号/从源码看如何管理设备号.md",
+    "_Linux视频教程课件与笔记/第93讲 设备号的组成与哈希表/设备号的组成与哈希表.md",
+    "_Linux视频教程课件与笔记/第92讲 Linux内核是怎么设计字符设备的/Linux内核是怎么设计字符设备的.md",
+    "_Linux视频教程课件与笔记/第91讲 内核模块实验2/内核模块实验2.md",
+    "_Linux视频教程课件与笔记/第90讲 内核模块实验1/内核模块实验1.md",
+    "_Linux视频教程课件与笔记/第8讲-使用Linux命令行(上)/使用Linux命令行.md",
+    "_Linux视频教程课件与笔记/第89讲 内核模块基本概念/内核模块基本概念.md",
+    "_Linux视频教程课件与笔记/第87讲 LCD显示原理/LCD显示原理.md",
+    "_Linux视频教程课件与笔记/第86讲 串口通信实验/串口通信实验.md",
+    "_Linux视频教程课件与笔记/第84讲 时钟控制模块/时钟控制模块.md",
+    "_Linux视频教程课件与笔记/第83集 位置无关码和重定位/位置无关码和重定位.md",
+    "_Linux视频教程课件与笔记/第82讲 按键中断实验/按键中断实验.md",
+    "_Linux视频教程课件与笔记/第81讲 中断处理流程/中断处理流程.md",
+    "_Linux视频教程课件与笔记/第80讲 中断向量表/中断向量表.md",
+    "_Linux视频教程课件与笔记/第47讲 检测按键输入/pro高清图.jpeg",
+    "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/裸机HelloWorld.png",
+    "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/Linux系统下HelloWorld.png",
+    "_Linux视频教程课件与笔记/第21讲-fire-config连接wifi/fire-config_wifi.png",
+    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/核心板高清图.jpg",
+    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/pro高清图.jpeg",
+    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/mini高清图.jpg",
     "site/assets/images/home/light.jpg",
     "site/assets/images/home/dark.jpg",
     "site/assets/images/WeChat.jpg",
-    "site/assets/images/pdf.svg",
-    "site/assets/images/qq.jpg",
-    "site/assets/images/favicon.png",
-    "site/assets/images/avatar.jpg",
-    "site/assets/github/github-light.png",
-    "site/assets/github/github-dark.png",
-    "未命名.canvas",
-    "docs/test/Lab/image.png"
+    "未命名.canvas"
   ]
 }
