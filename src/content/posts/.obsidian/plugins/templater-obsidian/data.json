@@ -21,6 +21,14 @@
     {
       "folder": "_",
       "template": "_模板/note-Embedded Linux.md"
+    },
+    {
+      "folder": "日记",
+      "template": "_模板/日记.md"
+    },
+    {
+      "folder": "常用命令",
+      "template": "_模板/常用命令.md"
     }
   ],
   "enable_file_templates": false,

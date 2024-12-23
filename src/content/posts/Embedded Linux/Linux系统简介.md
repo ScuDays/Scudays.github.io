@@ -33,7 +33,7 @@ Linux 发行版关系
 Debian派系下主要包含Debian、Ubuntu等发行版。
 Debian的特色在于其海量的软件支持和apt-get软件包管理系统，而且其支持的硬件平台非常全面， 包括x86、AMD、MIPS、ARM、POWERPC等。
 Ubuntu衍生自Debian，由于其易用性，可以说是最成功的Linux桌面版， 且它的成功已经开始漫延至其服务器版本，目前还推出了Ubuntu Core版本针对物联网等小型设备领域， 非常有发展前景。
-Debian和Ubuntu官网有非常丰富的使用教程，而且中文支持也很好， 推荐初学者多多浏览其中的内容，尤其是Debian。
+Debian和Ubuntu官网有非常丰富的使用教程，而且中文支持也很好，推荐初学者多多浏览其中的内容，尤其是Debian。
 Debian官网：[https://www.debian.org](https://www.debian.org/)
 Ubuntu官网：[https://ubuntu.com](https://ubuntu.com/)
 ### Fedora派系
