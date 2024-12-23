@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "docs/模板",
+  "templates_folder": "_模板",
   "templates_pairs": [
     [
       "",
@@ -15,12 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "docs/模板",
-      "template": "docs/模板/note-6S081.md"
+      "folder": "_模板",
+      "template": "_模板/note-6S081.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "_",
+      "template": "_模板/note-Linux.md"
     }
   ],
   "enable_file_templates": false,

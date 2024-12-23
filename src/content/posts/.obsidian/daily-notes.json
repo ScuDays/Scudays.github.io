@@ -1,3 +1,5 @@
 {
-  "folder": "docs/日记"
+  "folder": "日记",
+  "template": "_模板/日记",
+  "format": "YYYY-MM-DD记"
 }

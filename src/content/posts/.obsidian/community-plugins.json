@@ -16,5 +16,7 @@
   "obsidian-day-planner",
   "dataview",
   "templater-obsidian",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "obsidian-wakatime",
+  "obsidian-better-command-palette"
 ]

@@ -1,24 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Lec03：OS Organization and System Calls (Frans)",
-      "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+      "basename": "note-Linux",
+      "path": "_模板/note-Linux.md"
     },
     {
-      "basename": "Lec01：Introduction and Examples (Robert)",
-      "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+      "basename": "note-6S081",
+      "path": "_模板/note-6S081.md"
     },
     {
-      "basename": "Lab：Unix utilities",
-      "path": "6S081/Lab/Lab：Unix utilities.md"
+      "basename": "日记",
+      "path": "_模板/日记.md"
     },
     {
-      "basename": "Lab：traps",
-      "path": "6S081/Lab/Lab：traps.md"
-    },
-    {
-      "basename": "Lab：System calls",
-      "path": "6S081/Lab/Lab：System calls.md"
+      "basename": "2024-12-23记",
+      "path": "日记/2024-12-23记.md"
     },
     {
       "basename": "Lab：Multithreading",
@@ -35,6 +31,30 @@
     {
       "basename": "Lab：Copy-on-Write Fork for xv6",
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
+    },
+    {
+      "basename": "Lec01：Introduction and Examples (Robert)",
+      "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+    },
+    {
+      "basename": "Lec04：Page tables (Frans)",
+      "path": "6S081/Lecture/Lec04：Page tables (Frans).md"
+    },
+    {
+      "basename": "Lec03：OS Organization and System Calls (Frans)",
+      "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
+    },
+    {
+      "basename": "Lab：Unix utilities",
+      "path": "6S081/Lab/Lab：Unix utilities.md"
+    },
+    {
+      "basename": "Lab：traps",
+      "path": "6S081/Lab/Lab：traps.md"
+    },
+    {
+      "basename": "Lab：System calls",
+      "path": "6S081/Lab/Lab：System calls.md"
     },
     {
       "basename": "Lab：page tables",

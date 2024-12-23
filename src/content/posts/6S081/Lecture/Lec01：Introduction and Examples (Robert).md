@@ -5,6 +5,7 @@ modify: 2024-12-22 16:40:54
 author: days
 category: 6S081
 published: 2024-12-22
+image: https://raw.githubusercontent.com/ScuDays/MyImg/master/202412230022851.png
 ---
 # Lec01：Introduction and Examples (Robert)
 ## 操作系统的目标
@@ -14,8 +15,7 @@ published: 2024-12-22
 4. **Sharing**
 5. **Security**
 6. **Performance**
-7. **Range of user**
-
+7. **Range of user**d
 > 1. **第一个就是抽象硬件。通常来说，你会买一个计算机，里面包含了CPU，内存，但是这是一种非常低层级的资源。幸好我们有一些应用程序实现了高层级的接口和抽象，例如进程，文件系统。这些高层级的接口和抽象（Abstraction）方便了应用的开发，也提供了更好的移植性。**
 > 2. **操作系统的另一个重要的任务是：在多个应用程序之间共用硬件资源。你可以在一个操作系统同时运行文本编辑器，程序编译器，多个数据库等等。操作系统能非常神奇的在不相互干扰的前提下，同时运行这些程序。这里通常被称为multiplex。**
 > 3. **因为在操作系统中可能同时运行很多程序，即使程序出现了故障，多个程序之间互不干扰就变得非常重要。所以这里需要隔离性（Isolation），不同的活动之间不能相互干扰。**
@@ -28,7 +28,7 @@ published: 2024-12-22
 ![|535](https://raw.githubusercontent.com/ScuDays/MyImg/master/9cad3ebcb433436286eed1047fbb8cce.png)
 
 ## 操作系统架构
-![550](https://raw.githubusercontent.com/ScuDays/MyImg/master/be423d2631b468ff97829ad4276213be.png)
+![|511](https://raw.githubusercontent.com/ScuDays/MyImg/master/be423d2631b468ff97829ad4276213be.png)
 
 ## 文件描述符
 ### 内核为每个进程维护一张文件描述符表  
