@@ -6,6 +6,7 @@ author: days
 category: 常用命令
 published: 2024-12-23
 draft: false
+description: Linux常用命令
 ---
 
 # 常用命令归纳

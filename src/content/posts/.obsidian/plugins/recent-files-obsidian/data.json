@@ -5,12 +5,20 @@
       "path": "常用命令/Linux命令行.md"
     },
     {
-      "basename": "常用命令",
-      "path": "_模板/常用命令.md"
+      "basename": "note-Embedded Linux",
+      "path": "_模板/note-Embedded Linux.md"
+    },
+    {
+      "basename": "note-6S081",
+      "path": "_模板/note-6S081.md"
     },
     {
       "basename": "日记",
       "path": "_模板/日记.md"
+    },
+    {
+      "basename": "常用命令",
+      "path": "_模板/常用命令.md"
     },
     {
       "basename": "Linux系统简介",
@@ -23,10 +31,6 @@
     {
       "basename": "Lec01：Introduction and Examples (Robert)",
       "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
-    },
-    {
-      "basename": "note-Embedded Linux",
-      "path": "_模板/note-Embedded Linux.md"
     },
     {
       "basename": "2024-12-23记",
@@ -43,10 +47,6 @@
     {
       "basename": "Lab：Copy-on-Write Fork for xv6",
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
-      "basename": "note-6S081",
-      "path": "_模板/note-6S081.md"
     },
     {
       "basename": "Lab：Multithreading",
