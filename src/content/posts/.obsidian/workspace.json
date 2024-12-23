@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "常用命令/Linux命令行.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0e38d9a2cdce5106",
@@ -233,7 +232,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93915358dd6ed6f9",
+  "active": "6a35e2398fe681c2",
   "lastOpenFiles": [
     "_模板/常用命令.md",
     "常用命令/Linux命令行.md",

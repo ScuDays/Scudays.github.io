@@ -5,7 +5,7 @@ modify: 2024-12-23 23:35:39
 author: days
 category: 常用命令
 published: 2024-12-23
-draft: true
+draft: false
 ---
 
 # 常用命令归纳
