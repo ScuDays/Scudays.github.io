@@ -1,6 +1,6 @@
 ---
 title: Lab：page tables
-date: 2024-12-22 00:39:59
+date: 2024-08-31 00:39:59
 modify: 2024-12-22 16:40:21
 author: days
 category: 6S081

@@ -1,6 +1,6 @@
 ---
 title: Lab：System calls
-date: 2024-12-22 00:39:59
+date: 2024-07-05 00:39:59
 modify: 2024-12-22 16:40:23
 author: days
 category: 6S081

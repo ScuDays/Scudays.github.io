@@ -1,6 +1,6 @@
 ---
 title: Lec15：Crash recovery (Frans)
-date: 2024-12-22 00:39:59
+date: 2024-11-15 00:39:59
 modify: 2024-12-22 16:41:13
 author: days
 category: 6S081

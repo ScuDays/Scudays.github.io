@@ -82,7 +82,7 @@ description: 主要讲解Linux环境变量
 - 用途：存放系统级别的脚本文件，每个脚本文件可以独立配置环境变量或启动程序。
 ## Shell 执行顺序
 
-/etc/profiles->~/. Profile (~/. Bash_profile、~/. Bash_login)
+/etc/profiles -> ~/. Profile  (~/. Bash_profile、~/. Bash_login)
 
 ## 修改配置文件
 
@@ -91,20 +91,27 @@ description: 主要讲解Linux环境变量
 一个用户、全部进程共享:~/. Bashrc
 
 ## Shell 启动方式对变量的影响
+
  `test2.sh:`
+
 ```shell
 export var1=”hello”;
 ```
+
 脚本一
+
 ```shell
 Source test2.sh
 Echo ${var1}
 ```
+
 脚本二
+
 ```shell
 sh test2.sh
 Echo ${var1}
 ```
+
 这两个脚本的运行结果分别为：
 
 脚本 1：hello

@@ -1,6 +1,6 @@
 ---
 title: Lab：traps
-date: 2024-12-22 00:39:59
+date: 2024-09-27 00:39:59
 modify: 2024-12-22 16:40:24
 author: days
 category: 6S081

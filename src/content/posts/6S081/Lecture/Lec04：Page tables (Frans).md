@@ -1,6 +1,6 @@
 ---
 title: Lec04：Page tables (Frans)
-date: 2024-12-22 00:39:59
+date: 2024-07-31 00:39:59
 modify: 2024-12-22 16:40:58
 author: days
 category: 6S081

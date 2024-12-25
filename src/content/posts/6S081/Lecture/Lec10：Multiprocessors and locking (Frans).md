@@ -1,6 +1,6 @@
 ---
 title: Lec10：Multiprocessors and locking (Frans)
-date: 2024-12-22 00:39:59
+date: 2024-10-18 00:39:59
 modify: 2024-12-22 16:41:06
 author: days
 category: 6S081

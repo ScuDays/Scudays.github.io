@@ -1,6 +1,6 @@
 ---
 title: Lec08：Page faults (Frans)
-date: 2024-12-22 00:39:59
+date: 2024-10-09 00:39:59
 modify: 2024-12-22 16:41:02
 author: days
 category: 6S081
