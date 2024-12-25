@@ -38,6 +38,7 @@ Linux 发行版关系
 ![image.png|468](https://raw.githubusercontent.com/ScuDays/MyImg/master/202412231649474.png)
 
 至于在开发板上运行的 Linux 系统，可理解为这是针对特定板子而定制的Linux发行版。
+
 ### Debian派系
 
 Debian派系下主要包含Debian、Ubuntu等发行版。

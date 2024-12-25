@@ -12,7 +12,7 @@
   "attachmentsFolderName": "attachments",
   "folderIcon": "default",
   "folderCount": true,
-  "folderCountOption": "notes",
+  "folderCountOption": "files",
   "evernoteView": "Vertical",
   "filePreviewOnHover": false,
   "iconBeforeFileName": true,

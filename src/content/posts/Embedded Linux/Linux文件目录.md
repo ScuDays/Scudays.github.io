@@ -172,9 +172,7 @@ Linux 的目录结构一般遵循 FHS（Filesystem Hierarchy Standard，文件�
 
 ### /srv 
 
-一些网络服务所需 
-
-要的数据文件 
+一些网络服务所需 要的数据文件 
 
 ## 其他目录
 ### /lost +found 

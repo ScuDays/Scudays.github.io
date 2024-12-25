@@ -8,8 +8,17 @@ published: 2024-12-23
 draft: false
 description: Linux常用命令
 ---
-
 # 常用命令归纳
+
+参考文档：
+
+```link-bookmark
+url:https://doc.embedfire.com/linux/imx6/base/zh/latest/linux_basis/command_line.html
+title:
+description:
+coverImg:../_images/comman002.png
+logo:../_static/images/logo.ico
+```
 ## 查询命令
 
 man
@@ -24,7 +33,7 @@ mkdir:
 
 rmdir：
 
-mv:
+mv: 
 
 ## 文本操作类
 

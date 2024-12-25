@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded Linux/Linux系统简介.md",
+                "file": "Embedded Linux/Shell脚本编程.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux系统简介"
+              "title": "Shell脚本编程"
             }
           }
         ]
@@ -106,15 +106,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37f628702e984d96",
+            "id": "b51bce920599be50",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Embedded Linux/Linux文件目录.md"
-              },
-              "icon": "lucide-list",
-              "title": "Linux文件目录 的大纲"
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -133,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md",
+                "file": "Embedded Linux/Shell脚本编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linux文件目录 的反向链接列表"
+              "title": "Shell脚本编程 的反向链接列表"
             }
           },
           {
@@ -152,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md",
+                "file": "Embedded Linux/Shell脚本编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux文件目录 的出链列表"
+              "title": "Shell脚本编程 的出链列表"
             }
           },
           {
@@ -171,16 +169,6 @@
               },
               "icon": "lucide-tags",
               "title": "标签"
-            }
-          },
-          {
-            "id": "78be13e3902ad0e9",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {},
-              "icon": "viewIcon",
-              "title": "Markdown-Autocomplete"
             }
           },
           {
@@ -206,6 +194,18 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "a8f31c4c438ee9b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Embedded Linux/Shell脚本编程.md"
+              },
+              "icon": "lucide-list",
+              "title": "Shell脚本编程 的大纲"
+            }
           }
         ],
         "currentTab": 1
@@ -228,7 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,26 +240,27 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "templater-obsidian:Templater": false,
-      "zk-prefixer:创建时间戳笔记": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "6a35e2398fe681c2",
   "lastOpenFiles": [
-    "Embedded Linux/Linux文件目录.md",
     "常用命令/Linux命令行.md",
+    "日记/2024-12-23记.md",
+    "Embedded Linux/Shell脚本编程.md",
     "Embedded Linux/Linux系统简介.md",
-    "_模板/note-Embedded Linux.md",
-    "_模板/note-6S081.md",
+    "Embedded Linux/Linux文件目录.md",
+    "Embedded Linux/Linux通配符.md",
+    "参考文档.md",
     "_模板/日记.md",
     "_模板/常用命令.md",
+    "_模板/note-6S081.md",
+    "_模板/note-Embedded Linux.md",
     "常用命令",
     "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
     "Embedded Linux",
-    "日记/2024-12-23记.md",
     "6S081/Lab/Lab：lock.md",
     "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.h",
     "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.c",
@@ -282,9 +283,6 @@
     "_Linux视频教程课件与笔记/第8讲-使用Linux命令行(上)/使用Linux命令行.md",
     "_Linux视频教程课件与笔记/第89讲 内核模块基本概念/内核模块基本概念.md",
     "_Linux视频教程课件与笔记/第87讲 LCD显示原理/LCD显示原理.md",
-    "_Linux视频教程课件与笔记/第86讲 串口通信实验/串口通信实验.md",
-    "_Linux视频教程课件与笔记/第84讲 时钟控制模块/时钟控制模块.md",
-    "_Linux视频教程课件与笔记/第83集 位置无关码和重定位/位置无关码和重定位.md",
     "_Linux视频教程课件与笔记/第47讲 检测按键输入/pro高清图.jpeg",
     "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/裸机HelloWorld.png",
     "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/Linux系统下HelloWorld.png",
