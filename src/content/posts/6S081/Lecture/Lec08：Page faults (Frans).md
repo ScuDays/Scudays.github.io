@@ -4,7 +4,7 @@ date: 2024-10-09 00:39:59
 modify: 2024-12-22 16:41:02
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-10-09
 ---
 # Lec08：Page faults (Frans)
 ##  [<font style="color:rgb(27, 27, 27);">8.1 Page Fault Basics</font>](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec08-page-faults-frans/8.1-page-fault-basics)

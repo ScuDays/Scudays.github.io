@@ -4,7 +4,7 @@ date: 2024-10-18 00:39:59
 modify: 2024-12-22 16:41:06
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-10-18
 ---
 # Lec10：Multiprocessors and locking (Frans)
 ## 为什么需要锁?

@@ -4,7 +4,7 @@ date: 2024-09-27 00:39:59
 modify: 2024-12-22 16:40:24
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-09-27
 ---
 # Lab：traps
 ## <font style="color:rgb(51, 51, 51);">RISC-V assembly (easy)</font>

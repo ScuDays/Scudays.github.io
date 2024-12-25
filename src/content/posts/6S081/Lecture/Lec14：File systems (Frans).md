@@ -4,7 +4,7 @@ date: 2024-11-15 00:39:59
 modify: 2024-12-22 16:41:11
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-11-15
 ---
 # Lec14：File systems (Frans)
 ## 14.1 Why Interesting 

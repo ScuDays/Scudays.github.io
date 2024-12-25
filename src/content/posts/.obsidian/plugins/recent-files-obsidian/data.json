@@ -37,40 +37,24 @@
       "path": "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
     },
     {
-      "basename": "Lec03：OS Organization and System Calls (Frans)",
-      "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
-    },
-    {
       "basename": "Lec04：Page tables (Frans)",
       "path": "6S081/Lecture/Lec04：Page tables (Frans).md"
+    },
+    {
+      "basename": "Lec03：OS Organization and System Calls (Frans)",
+      "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
     },
     {
       "basename": "Lec01：Introduction and Examples (Robert)",
       "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
     },
     {
-      "basename": "Lab：lock",
-      "path": "6S081/Lab/Lab：lock.md"
-    },
-    {
-      "basename": "Lab：Multithreading",
-      "path": "6S081/Lab/Lab：Multithreading.md"
-    },
-    {
-      "basename": "Lab：Copy-on-Write Fork for xv6",
-      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
-      "basename": "Lab：lazy page allocation",
-      "path": "6S081/Lab/Lab：lazy page allocation.md"
+      "basename": "Lab：Unix utilities",
+      "path": "6S081/Lab/Lab：Unix utilities.md"
     },
     {
       "basename": "Lab：traps",
       "path": "6S081/Lab/Lab：traps.md"
-    },
-    {
-      "basename": "Lab：Unix utilities",
-      "path": "6S081/Lab/Lab：Unix utilities.md"
     },
     {
       "basename": "Lab：System calls",
@@ -79,6 +63,22 @@
     {
       "basename": "Lab：page tables",
       "path": "6S081/Lab/Lab：page tables.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "6S081/Lab/Lab：Multithreading.md"
+    },
+    {
+      "basename": "Lab：lock",
+      "path": "6S081/Lab/Lab：lock.md"
+    },
+    {
+      "basename": "Lab：lazy page allocation",
+      "path": "6S081/Lab/Lab：lazy page allocation.md"
+    },
+    {
+      "basename": "Lab：Copy-on-Write Fork for xv6",
+      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
     },
     {
       "basename": "Linux文件目录",

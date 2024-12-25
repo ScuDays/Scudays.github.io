@@ -4,7 +4,7 @@ date: 2024-06-06 00:39:59
 modify: 2024-12-22 16:40:54
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-06-06
 image: https://raw.githubusercontent.com/ScuDays/MyImg/master/202412230022851.png
 ---
 # Lec01：Introduction and Examples (Robert)

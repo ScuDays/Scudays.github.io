@@ -4,7 +4,7 @@ date: 2024-10-16 00:39:59
 modify: 2024-12-22 16:41:05
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-10-16
 ---
 # Lec09：Interrupts (Frans)(外部中断)
 ## 9.1 真实操作系统内存使用情况

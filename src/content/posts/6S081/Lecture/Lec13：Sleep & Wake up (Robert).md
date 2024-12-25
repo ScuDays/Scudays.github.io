@@ -4,7 +4,7 @@ date: 2024-11-08 00:39:59
 modify: 2024-12-22 16:41:09
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-11-08
 ---
 # Lec13：Sleep & Wake up (Robert)
 **介绍 OS调度中 sleep 与 wakeup 的机制，以及其他用到这个机制的系统调用，如 kill ，exit 和 wait。**

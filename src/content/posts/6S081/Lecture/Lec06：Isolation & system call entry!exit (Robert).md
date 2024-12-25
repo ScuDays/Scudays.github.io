@@ -4,7 +4,7 @@ date: 2024-08-19 00:39:59
 modify: 2024-12-22 16:41:01
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-08-19
 ---
 # Lec06：Isolation & system call entry/exit (Robert)
 ## 6.1 Trap机制

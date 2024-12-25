@@ -4,7 +4,7 @@ date: 2024-06-01 00:39:59
 modify: 2024-12-22 16:40:26
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-09-27
 ---
 # Lab：Unix utilities
 + **及时关闭不需要的管道描述符，一旦发现以后用不上，立刻关闭。**

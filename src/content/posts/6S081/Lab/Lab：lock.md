@@ -4,7 +4,7 @@ date: 2024-11-14 00:39:58
 modify: 2024-12-22 16:40:18
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-11-14
 ---
 # Lab：lock
 ## Memory allocator(moderate)

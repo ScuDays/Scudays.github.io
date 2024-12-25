@@ -4,7 +4,7 @@ date: 2024-08-31 00:39:59
 modify: 2024-12-22 16:40:21
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-08-31
 ---
 # Lab：page tables
 ## Print a page table (easy)

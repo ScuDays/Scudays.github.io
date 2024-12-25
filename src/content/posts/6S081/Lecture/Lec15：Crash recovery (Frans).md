@@ -4,7 +4,7 @@ date: 2024-11-15 00:39:59
 modify: 2024-12-22 16:41:13
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-11-15
 ---
 # Lec15：Crash recovery (Frans)
 ## **<font style="color:rgb(38, 38, 38);">15.1 File system crash 概述 </font>**

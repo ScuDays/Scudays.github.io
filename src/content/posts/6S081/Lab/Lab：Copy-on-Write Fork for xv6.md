@@ -4,7 +4,7 @@ date: 2024-10-24 00:39:58
 modify: 2024-12-22 16:40:15
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-10-24
 draft: false
 ---
 # Lab：Copy-on-Write Fork for xv6

@@ -4,7 +4,7 @@ date: 2024-07-31 00:39:59
 modify: 2024-12-22 16:40:58
 author: days
 category: 6S081
-published: 2024-12-22
+published: 2024-07-31
 ---
 # <font style="color:#000000;">Lec04：Page tables (Frans)</font>
 > **<font style="color:#000000;">今天的内容主要是3个部分：</font>**
