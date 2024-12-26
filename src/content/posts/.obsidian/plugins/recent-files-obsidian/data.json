@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "交叉编译",
+      "path": "Embedded Linux/交叉编译.md"
+    },
+    {
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
+    },
+    {
       "basename": "构建deb软件安装包",
       "path": "Embedded Linux/构建deb软件安装包.md"
     },
@@ -83,10 +91,6 @@
     {
       "basename": "Lab：Copy-on-Write Fork for xv6",
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
-      "basename": "Linux文件目录",
-      "path": "Embedded Linux/Linux文件目录.md"
     },
     {
       "basename": "Shell脚本编程",
@@ -195,10 +199,6 @@
     {
       "basename": "Lec08：Page faults (Frans)",
       "path": "docs/6S081/Lecture/Lec08：Page faults (Frans).md"
-    },
-    {
-      "basename": "Lab：Unix utilities",
-      "path": "docs/6S081/Lab/Lab：Unix utilities.md"
     }
   ],
   "omittedPaths": [],

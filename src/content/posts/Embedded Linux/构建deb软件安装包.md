@@ -51,9 +51,11 @@ description: 构建deb软件安装包
 
 ### deb包
 #### 概念
+
 Debian、Ubuntu、Deepin等Linux发行版的软件安装包。
 
 #### 结构
+
 Deb 软件包里面的结构：它具有 DEBIAN 和软件具体安装目录（如 etc, usr, opt, tmp 等）:
 
 ```
@@ -138,9 +140,13 @@ soft-name
     |   |--files
     ...
 ```
+
 ![](https://raw.githubusercontent.com/ScuDays/MyImg/master/202412261126388.png)
+
 ## 如何构建一个helloworld的deb包
+
 最好使用一个脚本，自动导入需要执行的程序以及一些信息
+
 ## apt命令和apt-get命令
 - apt是新版的包管理工具
 - 解决apt-get命令过于分散的问题
