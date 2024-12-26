@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "构建deb软件安装包",
+      "path": "Embedded Linux/构建deb软件安装包.md"
+    },
+    {
       "basename": "Lec15：Crash recovery (Frans)",
       "path": "6S081/Lecture/Lec15：Crash recovery (Frans).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Lab：Unix utilities",
       "path": "docs/6S081/Lab/Lab：Unix utilities.md"
-    },
-    {
-      "basename": "Lab：traps",
-      "path": "docs/6S081/Lab/Lab：traps.md"
     }
   ],
   "omittedPaths": [],
