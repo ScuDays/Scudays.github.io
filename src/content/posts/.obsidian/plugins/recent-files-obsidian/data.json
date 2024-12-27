@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux通配符",
+      "path": "Embedded Linux/Linux通配符.md"
+    },
+    {
+      "basename": "Linux环境变量",
+      "path": "Embedded Linux/Linux环境变量.md"
+    },
+    {
+      "basename": "构建deb软件安装包",
+      "path": "Embedded Linux/构建deb软件安装包.md"
+    },
+    {
       "basename": "交叉编译",
       "path": "Embedded Linux/交叉编译.md"
     },
@@ -9,44 +21,32 @@
       "path": "Embedded Linux/Linux文件目录.md"
     },
     {
-      "basename": "构建deb软件安装包",
-      "path": "Embedded Linux/构建deb软件安装包.md"
-    },
-    {
-      "basename": "Lec15：Crash recovery (Frans)",
-      "path": "6S081/Lecture/Lec15：Crash recovery (Frans).md"
-    },
-    {
-      "basename": "Lec14：File systems (Frans)",
-      "path": "6S081/Lecture/Lec14：File systems (Frans).md"
-    },
-    {
-      "basename": "Lec13：Sleep & Wake up (Robert)",
-      "path": "6S081/Lecture/Lec13：Sleep & Wake up (Robert).md"
-    },
-    {
-      "basename": "Lec11：Thread switching (Robert)",
-      "path": "6S081/Lecture/Lec11：Thread switching (Robert).md"
-    },
-    {
-      "basename": "Lec10：Multiprocessors and locking (Frans)",
-      "path": "6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md"
+      "basename": "Linux系统简介",
+      "path": "Embedded Linux/Linux系统简介.md"
     },
     {
       "basename": "Lec09：Interrupts (Frans)(外部中断)",
       "path": "6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md"
     },
     {
-      "basename": "Lec08：Page faults (Frans)",
-      "path": "6S081/Lecture/Lec08：Page faults (Frans).md"
+      "basename": "Lec10：Multiprocessors and locking (Frans)",
+      "path": "6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md"
     },
     {
-      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
-      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
+      "basename": "Lec11：Thread switching (Robert)",
+      "path": "6S081/Lecture/Lec11：Thread switching (Robert).md"
     },
     {
-      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
-      "path": "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
+      "basename": "Lec13：Sleep & Wake up (Robert)",
+      "path": "6S081/Lecture/Lec13：Sleep & Wake up (Robert).md"
+    },
+    {
+      "basename": "Lec14：File systems (Frans)",
+      "path": "6S081/Lecture/Lec14：File systems (Frans).md"
+    },
+    {
+      "basename": "Lec15：Crash recovery (Frans)",
+      "path": "6S081/Lecture/Lec15：Crash recovery (Frans).md"
     },
     {
       "basename": "Lec04：Page tables (Frans)",
@@ -59,6 +59,26 @@
     {
       "basename": "Lec01：Introduction and Examples (Robert)",
       "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
+    },
+    {
+      "basename": "Shell脚本编程",
+      "path": "Embedded Linux/Shell脚本编程.md"
+    },
+    {
+      "basename": "Linux命令行",
+      "path": "常用命令/Linux命令行.md"
+    },
+    {
+      "basename": "Lec08：Page faults (Frans)",
+      "path": "6S081/Lecture/Lec08：Page faults (Frans).md"
+    },
+    {
+      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
+      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
+    },
+    {
+      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
+      "path": "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
     },
     {
       "basename": "Lab：Unix utilities",
@@ -91,26 +111,6 @@
     {
       "basename": "Lab：Copy-on-Write Fork for xv6",
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
-      "basename": "Shell脚本编程",
-      "path": "Embedded Linux/Shell脚本编程.md"
-    },
-    {
-      "basename": "Linux系统简介",
-      "path": "Embedded Linux/Linux系统简介.md"
-    },
-    {
-      "basename": "Linux环境变量",
-      "path": "Embedded Linux/Linux环境变量.md"
-    },
-    {
-      "basename": "Linux通配符",
-      "path": "Embedded Linux/Linux通配符.md"
-    },
-    {
-      "basename": "Linux命令行",
-      "path": "常用命令/Linux命令行.md"
     },
     {
       "basename": "2024-12-23记",

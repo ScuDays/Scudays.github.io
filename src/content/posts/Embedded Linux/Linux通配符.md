@@ -7,5 +7,6 @@ category: Embedded Linux
 published: 2024-12-25
 draft: false
 description: Linux通配符
+tags: [Linux]
 ---
 

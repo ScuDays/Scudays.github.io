@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-tag-suggest",
+    "name": "Tag Suggester",
+    "version": "1.0.1",
+    "minAppVersion": "0.15.0",
+    "description": "使用 AI 为文档推荐标签",
+    "author": "Tian",
+    "authorUrl": "",
+    "isDesktopOnly": false
+}

@@ -7,6 +7,7 @@ category: Embedded Linux
 published: 2024-12-26
 draft: false
 description: 构建deb软件安装包
+tags: [deb包, Linux软件包, dpkg工具]
 ---
 # 构建deb软件安装包
 ## Linux 软件包的组成

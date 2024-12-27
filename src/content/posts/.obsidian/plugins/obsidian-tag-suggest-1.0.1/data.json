@@ -1,0 +1,9 @@
+{
+  "apiKey": "",
+  "apiBase": "https://api.gpt.ge/v1",
+  "tagCount": 3,
+  "ollamaHost": "http://localhost:11434",
+  "ollamaModel": "llama2",
+  "aiModel": "deepseek",
+  "deepseekApiKey": "sk-8b601bc2c8554c3fa3681fee9e3eb51e"
+}

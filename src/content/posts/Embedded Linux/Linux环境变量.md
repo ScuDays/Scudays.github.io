@@ -7,6 +7,7 @@ category: Embedded Linux
 published: 2024-12-25
 draft: false
 description: 主要讲解Linux环境变量
+tags: [Linux, 环境变量, Shell]
 ---
 # linux 环境变量
 ## Linux 为什么需要环境变量?

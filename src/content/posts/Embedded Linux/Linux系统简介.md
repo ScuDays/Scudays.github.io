@@ -7,6 +7,7 @@ category: Embedded Linux
 published: 2024-12-23
 draft: false
 description: 主要讲解Linux系统的历史及一些基本概念。
+tags: [Linux, 操作系统, 开源]
 ---
 ## Linux 发展史
 

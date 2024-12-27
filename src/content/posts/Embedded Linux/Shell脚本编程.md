@@ -7,6 +7,7 @@ category: Embedded Linux
 published: 2024-12-24
 draft: false
 description: 讲解Shell脚本编程
+tags: [Shell脚本, 编程, Linux]
 ---
 # Shell 脚本编程
 ## Shell 脚本简介
