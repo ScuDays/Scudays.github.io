@@ -29,6 +29,10 @@
     {
       "folder": "常用命令",
       "template": "_模板/常用命令.md"
+    },
+    {
+      "folder": "Tools",
+      "template": "_模板/Tools.md"
     }
   ],
   "enable_file_templates": false,
