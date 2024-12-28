@@ -6,7 +6,7 @@ author: days
 category: Embedded Linux
 published: 2024-12-27
 draft: false
-description:
+description: Makefile的介绍与使用
 ---
 # Makefile 
 
