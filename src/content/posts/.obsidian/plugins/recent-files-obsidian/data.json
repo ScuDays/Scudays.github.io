@@ -9,32 +9,36 @@
       "path": "Embedded Linux/Shell脚本编程.md"
     },
     {
-      "basename": "C 文件的编译过程",
-      "path": "computer basic/C 文件的编译过程.md"
-    },
-    {
-      "basename": "note-computer-basic",
-      "path": "_模板/note-computer-basic.md"
-    },
-    {
-      "basename": "Linux系统简介",
-      "path": "Embedded Linux/Linux系统简介.md"
-    },
-    {
       "basename": "构建deb软件安装包",
       "path": "Embedded Linux/构建deb软件安装包.md"
     },
     {
-      "basename": "Linux通配符",
-      "path": "Embedded Linux/Linux通配符.md"
+      "basename": "交叉编译",
+      "path": "Embedded Linux/交叉编译.md"
     },
     {
       "basename": "Linux环境变量",
       "path": "Embedded Linux/Linux环境变量.md"
     },
     {
+      "basename": "Linux通配符",
+      "path": "Embedded Linux/Linux通配符.md"
+    },
+    {
       "basename": "Linux文件目录",
       "path": "Embedded Linux/Linux文件目录.md"
+    },
+    {
+      "basename": "Linux系统简介",
+      "path": "Embedded Linux/Linux系统简介.md"
+    },
+    {
+      "basename": "C 文件的编译过程",
+      "path": "computer basic/C 文件的编译过程.md"
+    },
+    {
+      "basename": "note-computer-basic",
+      "path": "_模板/note-computer-basic.md"
     },
     {
       "basename": "Astro配置与解析",
@@ -67,10 +71,6 @@
     {
       "basename": "Lab：Copy-on-Write Fork for xv6",
       "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
-      "basename": "交叉编译",
-      "path": "Embedded Linux/交叉编译.md"
     },
     {
       "basename": "Tools",

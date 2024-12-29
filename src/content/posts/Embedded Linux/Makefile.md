@@ -40,6 +40,50 @@ Makefile 文件: 记录依赖关系和编译规则。
 
 ![image.png|361](https://raw.githubusercontent.com/ScuDays/MyImg/master/202412271955748.png)
 
+### Makefile 执行命令的方式
+**Makefile** 最终的执行过程都是通过 **Shell 命令** 来完成的。
+**`make`** 本身就是一个工具，它根据 Makefile 中定义的规则和命令来自动化构建过程，而这些规则和命令通常都涉及到执行 Shell 命令。
+
+示例 Makefile：
+
+```makefile
+CC = gcc
+CFLAGS = -Wall -g
+
+# 目标规则
+main: main.o function.o
+    $(CC) $(CFLAGS) -o main main.o function.o
+
+main.o: main.c
+    $(CC) $(CFLAGS) -c main.c -o main.o
+
+function.o: function.c
+    $(CC) $(CFLAGS) -c function.c -o function.o
+```
+
+在这个 Makefile 中，`make` 会依次执行以下 **Shell 命令**：
+
+- `gcc -Wall -g -c main.c -o main.o`
+- `gcc -Wall -g -c function.c -o function.o`
+- `gcc -Wall -g -o main main.o function.o`
+
+**`make` 如何执行这些命令**：
+- 当你运行 `make` 命令时，它会读取 Makefile 中的规则，并解析每个规则中的命令。
+- 这些命令是由 **Shell 执行的**，`make` 会调用 Shell 来执行每个命令。(取决于系统默认的 shell 工具是什么，或者你可以在 Makefile 中指定使用不同的 shell)
+**命令的执行方式**：
+- 每条命令都会在一个新的 Shell 进程中执行。这意味着每条命令都是独立的，尽管它们在 Makefile 中是按顺序执行的。
+- 如果你在 Makefile 中编写多个命令，它们会在不同的 Shell 实例中执行（除非你使用 `&&` 或其他方式将它们组合成一个命令）。
+
+例如：
+
+```makefile
+target:
+    command1
+    command2
+```
+
+这些 `command1` 和 `command2` 会分别在不同的 Shell 进程中执行。
+
 ### 伪目标
 #### 伪目标作用
 
@@ -50,7 +94,7 @@ Makefile 中大部分目标都是去生成一个特定的文件，大部分情�
 #### 伪目标的使用
 1.声明伪目标（通常在 Makefile 文件开头）：
 ```makefile
-.PHONY clean (这里声明clean是伪目标)
+.PHONY: clean (这里声明clean是伪目标)
 ```
 2.定义伪目标规则：
 ```makefile
@@ -274,4 +318,47 @@ endif
 
 ### 常用函数
 
+[Makefile常用的函数 - quinoa - 博客园](https://www.cnblogs.com/053179hu/p/14209672.html)
+
 ### 解决头文件依赖
+> 我们使用 Makefile 通过 make 进行编译的时候，发现会有一些 warning 产生，这是因为我们在 a.c 文件中使用了 b.c 中的函数，却未 include b.h 同时未告诉 Makefile 头文件的位置在哪里，这就导致了这个问题的发生。
+> ![image.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/202412291314254.png)
+
+给 gcc 使用 -I + .h 用来指定**额外的头文件搜索路径**
+
+示例：
+
+假设你有以下文件结构：
+
+```
+project/
+├── include/
+│   └── myheader.h
+└── src/
+    └── main.c
+```
+
+你在 `main.c` 中使用了 `#include "myheader.h"`，而 `myheader.h` 位于 `include` 目录下。
+
+你可以通过以下命令来编译 `main.c`，并告诉编译器去 `include` 目录查找头文件：
+
+示例：
+
+```makefile
+main:main.o
+	gcc main.o -o main -I ./include
+```
+  
+> 以上就解决了 warning报错  
+
+我们现在已经告诉了 Makefile 我们头文件的位置，解决了 warning 报错，但是当我们更改头文件不 clean 直接进行 make 的时候，虽然头文件已经改变，但是却显示 main 中使用的还是旧的头文件的内容，这是为什么？
+
+这个是因为我们在依赖中没有加入依赖的头文件，所以在多次 make 中不会检测这个头文件是否变化了。
+
+解决：在依赖中添加头文件
+
+```makefile
+main:main.o function.h
+	gcc main.o -o main -I ./include
+```
+  

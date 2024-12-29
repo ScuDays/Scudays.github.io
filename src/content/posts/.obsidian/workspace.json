@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Embedded Linux/Makefile.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -222,7 +222,8 @@
               "title": "Linux文件目录 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "29e9d161c85f19a4",
@@ -242,7 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 513.5
+    "width": 492.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,18 +261,19 @@
       "obsidian-tag-suggest:为当前文档推荐标签": false
     }
   },
-  "active": "b51bce920599be50",
+  "active": "93915358dd6ed6f9",
   "lastOpenFiles": [
     "Embedded Linux/Shell脚本编程.md",
-    "Embedded Linux/Makefile.md",
+    "Embedded Linux/构建deb软件安装包.md",
+    "Embedded Linux/交叉编译.md",
+    "Embedded Linux/Linux环境变量.md",
+    "Embedded Linux/Linux通配符.md",
+    "Embedded Linux/Linux文件目录.md",
+    "Embedded Linux/Linux系统简介.md",
     "computer basic/C 文件的编译过程.md",
+    "Embedded Linux/Makefile.md",
     "_模板/note-computer-basic.md",
     "computer basic",
-    "Embedded Linux/Linux系统简介.md",
-    "Embedded Linux/构建deb软件安装包.md",
-    "Embedded Linux/Linux通配符.md",
-    "Embedded Linux/Linux环境变量.md",
-    "Embedded Linux/Linux文件目录.md",
     "Tools/Astro配置与解析.md",
     "6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md",
     "6S081/Lecture/Lec08：Page faults (Frans).md",
@@ -280,7 +282,6 @@
     "6S081/Lecture/Lec04：Page tables (Frans).md",
     "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
     "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md",
-    "Embedded Linux/交叉编译.md",
     "_模板/Tools.md",
     "_模板/note-6S081.md",
     "_模板/常用命令.md",
