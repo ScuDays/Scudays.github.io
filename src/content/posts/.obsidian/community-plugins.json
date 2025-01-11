@@ -6,7 +6,6 @@
   "obsidian-admonition",
   "recent-files-obsidian",
   "attachment-flow-plugin",
-  "obsidian-image-auto-upload-plugin",
   "calendar",
   "quickadd",
   "obsidian-day-planner",
@@ -19,5 +18,6 @@
   "editing-toolbar",
   "obsidian-quiet-outline",
   "obsidian-tag-suggest",
-  "floating-toc"
+  "floating-toc",
+  "obsidian-image-auto-upload-plugin"
 ]

@@ -9,12 +9,36 @@
       "path": "Embedded Linux/Shell脚本编程.md"
     },
     {
+      "basename": "Uboot",
+      "path": "Embedded Linux/Uboot.md"
+    },
+    {
+      "basename": "Uboot学习过程",
+      "path": "Embedded Linux/Uboot学习过程.md"
+    },
+    {
+      "basename": "疑问",
+      "path": "Embedded Linux/疑问.md"
+    },
+    {
       "basename": "构建deb软件安装包",
       "path": "Embedded Linux/构建deb软件安装包.md"
     },
     {
+      "basename": "C 文件的编译过程",
+      "path": "computer basic/C 文件的编译过程.md"
+    },
+    {
       "basename": "交叉编译",
       "path": "Embedded Linux/交叉编译.md"
+    },
+    {
+      "basename": "链接",
+      "path": "computer basic/链接.md"
+    },
+    {
+      "basename": "学习路线",
+      "path": "_杂念/学习路线.md"
     },
     {
       "basename": "Linux环境变量",
@@ -33,8 +57,40 @@
       "path": "Embedded Linux/Linux系统简介.md"
     },
     {
-      "basename": "C 文件的编译过程",
-      "path": "computer basic/C 文件的编译过程.md"
+      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
+      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
+    },
+    {
+      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
+      "path": "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
+    },
+    {
+      "basename": "Lab：Unix utilities",
+      "path": "6S081/Lab/Lab：Unix utilities.md"
+    },
+    {
+      "basename": "Lab：page tables",
+      "path": "6S081/Lab/Lab：page tables.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "6S081/Lab/Lab：Multithreading.md"
+    },
+    {
+      "basename": "Lab：lock",
+      "path": "6S081/Lab/Lab：lock.md"
+    },
+    {
+      "basename": "Lab：Copy-on-Write Fork for xv6",
+      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
+    },
+    {
+      "basename": "杂念",
+      "path": "_模板/杂念.md"
+    },
+    {
+      "basename": "常用命令",
+      "path": "_模板/常用命令.md"
     },
     {
       "basename": "note-computer-basic",
@@ -53,14 +109,6 @@
       "path": "6S081/Lecture/Lec08：Page faults (Frans).md"
     },
     {
-      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
-      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
-    },
-    {
-      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
-      "path": "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
-    },
-    {
       "basename": "Lec04：Page tables (Frans)",
       "path": "6S081/Lecture/Lec04：Page tables (Frans).md"
     },
@@ -69,20 +117,12 @@
       "path": "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
     },
     {
-      "basename": "Lab：Copy-on-Write Fork for xv6",
-      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
-    },
-    {
       "basename": "Tools",
       "path": "_模板/Tools.md"
     },
     {
       "basename": "note-6S081",
       "path": "_模板/note-6S081.md"
-    },
-    {
-      "basename": "常用命令",
-      "path": "_模板/常用命令.md"
     },
     {
       "basename": "Lec01：Introduction and Examples (Robert)",
@@ -113,28 +153,12 @@
       "path": "常用命令/Linux命令行.md"
     },
     {
-      "basename": "Lab：Unix utilities",
-      "path": "6S081/Lab/Lab：Unix utilities.md"
-    },
-    {
       "basename": "Lab：traps",
       "path": "6S081/Lab/Lab：traps.md"
     },
     {
       "basename": "Lab：System calls",
       "path": "6S081/Lab/Lab：System calls.md"
-    },
-    {
-      "basename": "Lab：page tables",
-      "path": "6S081/Lab/Lab：page tables.md"
-    },
-    {
-      "basename": "Lab：Multithreading",
-      "path": "6S081/Lab/Lab：Multithreading.md"
-    },
-    {
-      "basename": "Lab：lock",
-      "path": "6S081/Lab/Lab：lock.md"
     },
     {
       "basename": "Lab：lazy page allocation",
@@ -159,46 +183,6 @@
     {
       "basename": "note-6S081",
       "path": "docs/模板/note-6S081.md"
-    },
-    {
-      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
-      "path": "docs/6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
-    },
-    {
-      "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
-      "path": "docs/6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md"
-    },
-    {
-      "basename": "Lec04：Page tables (Frans)",
-      "path": "docs/6S081/Lecture/Lec04：Page tables (Frans).md"
-    },
-    {
-      "basename": "Lec03：OS Organization and System Calls (Frans)",
-      "path": "docs/6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md"
-    },
-    {
-      "basename": "Lec01：Introduction and Examples (Robert)",
-      "path": "docs/6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
-    },
-    {
-      "basename": "2024-12-24",
-      "path": "docs/日记/2024-12-24.md"
-    },
-    {
-      "basename": "2024-12-22",
-      "path": "docs/日记/2024-12-22.md"
-    },
-    {
-      "basename": "Invalid date",
-      "path": "docs/日记/Invalid date.md"
-    },
-    {
-      "basename": "Lec15：Crash recovery (Frans)",
-      "path": "docs/6S081/Lecture/Lec15：Crash recovery (Frans).md"
-    },
-    {
-      "basename": "Lec14：File systems (Frans)",
-      "path": "docs/6S081/Lecture/Lec14：File systems (Frans).md"
     }
   ],
   "omittedPaths": [],

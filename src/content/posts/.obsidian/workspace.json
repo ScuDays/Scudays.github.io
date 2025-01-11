@@ -4,31 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1944d762ad0221",
+        "id": "fcc7d706f9bb1969",
         "type": "tabs",
         "children": [
           {
-            "id": "accae12ae80d17c1",
+            "id": "38ec3ef8f2dc1086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer basic/C 文件的编译过程.md",
+                "file": "Embedded Linux/Uboot学习过程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C 文件的编译过程"
+              "title": "Uboot学习过程"
             }
           },
           {
-            "id": "84db5a47bbef6d98",
+            "id": "ffa291f85d5b40f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Embedded Linux/Makefile.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 200
   },
   "right": {
     "id": "bfc5138eefd19587",
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded Linux/交叉编译.md",
+                "file": "Embedded Linux/Makefile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "交叉编译 的反向链接列表"
+              "title": "Makefile 的反向链接列表"
             }
           },
           {
@@ -216,14 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embedded Linux/Linux文件目录.md"
+                "file": "Embedded Linux/Makefile.md"
               },
               "icon": "lucide-list",
-              "title": "Linux文件目录 的大纲"
+              "title": "Makefile 的大纲"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "29e9d161c85f19a4",
@@ -243,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,54 +260,54 @@
       "obsidian-tag-suggest:为当前文档推荐标签": false
     }
   },
-  "active": "93915358dd6ed6f9",
+  "active": "ffa291f85d5b40f2",
   "lastOpenFiles": [
     "Embedded Linux/Shell脚本编程.md",
+    "Embedded Linux/Uboot.md",
+    "Embedded Linux/Uboot学习过程.md",
+    "Embedded Linux/疑问.md",
     "Embedded Linux/构建deb软件安装包.md",
+    "computer basic/C 文件的编译过程.md",
+    "Clippings/imx6ull uboot启动流程.md",
     "Embedded Linux/交叉编译.md",
+    "computer basic/链接.md",
+    " 1/867145-20221207212806224-17146666.png",
+    " 1/867145-20221207211343966-1705082488.png",
+    " 1/867145-20221207204138893-257534917.png",
+    " 1/867145-20221205200446250-810001107.png",
+    " 1/867145-20221205195308101-1236788721.png",
+    " 1/867145-20221209234512736-1838742215.png",
+    " 1/867145-20221209234455750-909988657.png",
+    " 1/867145-20230115183849856-1419027808.png",
+    " 1/867145-20230102182156454-1806006088.png",
+    " 1/867145-20230102193742587-985716878.png",
+    " 1",
+    "/ 1",
+    "Clippings/未命名.md",
+    "undefined.md",
+    " 2",
+    "/ 2",
+    "Clippings",
+    "Embedded Linux/Makefile.md",
+    "_杂念/学习路线.md",
     "Embedded Linux/Linux环境变量.md",
     "Embedded Linux/Linux通配符.md",
     "Embedded Linux/Linux文件目录.md",
     "Embedded Linux/Linux系统简介.md",
-    "computer basic/C 文件的编译过程.md",
-    "Embedded Linux/Makefile.md",
-    "_模板/note-computer-basic.md",
-    "computer basic",
-    "Tools/Astro配置与解析.md",
-    "6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md",
-    "6S081/Lecture/Lec08：Page faults (Frans).md",
+    "().md",
     "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md",
     "6S081/Lecture/Lec05：Calling conventions and stack frames RISC-V (TA).md",
-    "6S081/Lecture/Lec04：Page tables (Frans).md",
-    "6S081/Lecture/Lec03：OS Organization and System Calls (Frans).md",
+    "6S081/Lab/Lab：Unix utilities.md",
+    "6S081/Lab/Lab：page tables.md",
+    "6S081/Lab/Lab：Multithreading.md",
+    "6S081/Lab/Lab：lock.md",
     "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md",
-    "_模板/Tools.md",
-    "_模板/note-6S081.md",
-    "_模板/常用命令.md",
+    "_模板/杂念.md",
+    "_杂念",
+    "computer basic",
     "Tools",
-    "6S081/Lecture/Lec01：Introduction and Examples (Robert).md",
-    "6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md",
-    "6S081/Lecture/Lec15：Crash recovery (Frans).md",
-    "6S081/Lecture/Lec14：File systems (Frans).md",
-    "6S081/Lecture/Lec11：Thread switching (Robert).md",
     "常用命令",
     "Embedded Linux",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.h",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/uart/uart.c",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/led/led.h",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/project/start.s",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/project/main.c",
-    "_Linux视频教程课件与笔记/配套代码/bare_mental/part_9/sources/led/led.c",
-    "_Linux视频教程课件与笔记/第47讲 检测按键输入/pro高清图.jpeg",
-    "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/裸机HelloWorld.png",
-    "_Linux视频教程课件与笔记/第28讲-Linux系统和HelloWorld(上)/Linux系统下HelloWorld.png",
-    "_Linux视频教程课件与笔记/第21讲-fire-config连接wifi/fire-config_wifi.png",
-    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/核心板高清图.jpg",
-    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/pro高清图.jpeg",
-    "_Linux视频教程课件与笔记/第18讲-硬件介绍和固件烧录/mini高清图.jpg",
-    "site/assets/images/home/light.jpg",
-    "site/assets/images/home/dark.jpg",
-    "site/assets/images/WeChat.jpg",
     "未命名.canvas"
   ]
 }

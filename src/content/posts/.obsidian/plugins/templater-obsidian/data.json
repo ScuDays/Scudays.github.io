@@ -37,6 +37,10 @@
     {
       "folder": "computer basic",
       "template": "_模板/note-computer-basic.md"
+    },
+    {
+      "folder": "_杂念",
+      "template": "_模板/杂念.md"
     }
   ],
   "enable_file_templates": false,
