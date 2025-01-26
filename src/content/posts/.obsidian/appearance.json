@@ -4,7 +4,7 @@
   "monospaceFontFamily": "Cascadia Code",
   "cssTheme": "Things",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 14,
   "interfaceFontFamily": "思源黑体旧字形",
   "accentColor": "",
   "enabledCssSnippets": [

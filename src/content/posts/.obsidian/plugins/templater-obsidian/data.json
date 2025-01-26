@@ -41,6 +41,10 @@
     {
       "folder": "_杂念",
       "template": "_模板/杂念.md"
+    },
+    {
+      "folder": "RTOS",
+      "template": "_模板/note-RTOS.md"
     }
   ],
   "enable_file_templates": false,

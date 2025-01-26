@@ -34,15 +34,21 @@ imx 文件是在 bin 文件的基础上加上了一个头部。
 ## 不同uboot 启动过程概要
 ### 主要区别
 
-参考：[imx6ull uboot启动流程 - 流水灯 - 博客园](https://www.cnblogs.com/god-of-death/p/16964389.html)
+参考：
 
-> [!NOTE]
-> 
+[imx6ull uboot启动流程 - 流水灯 - 博客园](https://www.cnblogs.com/god-of-death/p/16964389.html)
 
-1：MX6ULL 的 BOOTROM 程序会根据解析出来的链接起始地址在**一开始就把整个 Uboot 源码读取到 DDR 中去**，也就是说 Uboot 的**第一行代码就运行在 DDR 中**，这是不同于三星的传统 Uboot 的，**传统 Uboot 的第一句代码是运行在片内 SRAM 上的**。  
- 2：由于上述的区别，Uboot 的重定位过程也就不同了，**IMX6ULL 的重定位过程是把 Uboot 整体从 DDR 的起始地址给挪到 DDR 的后端地址上去**，给 Linux 内核腾位置。
+[《韦东山u-boot完全分析和移植》03.1B_答疑_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1L24y187cK?spm_id_from=333.788.videopod.episodes&vd_source=c83b1e7bade451cf353418ef9b445fc9&p=5)
 
-而三星 Uboot 中重定位是从 Flash 中把 Uboot 加载到 DDR 中去。
+第一个重要区别：
+
+- IMX6ULL 的 BOOTROM 程序会 UBoot 前面的 **DCD**（ddr 配置信息）直接初始化 ddr，并根据解析出来的链接起始地址在**一开始就把整个 Uboot 源码读取到 DDR 中去**，所以Uboot 的**直接就运行在 DDR 中。**
+- 三星的传统 Uboot 是 BootRom 先将 Uboot 前面的 4 K 的程序读入片上 SRAM，由这个程序来初始化 DDR，再将后面的程序读入 ddr 运行，**所以 Uboot 先运行在片上 SRAM，再运行在 DDR 中。**
+
+ 第二个重要区别：
+
+- 由于上述的区别，Uboot 的重定位过程也就不同了，**IMX6ULL 的重定位过程是把 Uboot 整体从 DDR 的起始地址给挪到 DDR 的后端地址上去**，给 Linux 内核腾位置。
+- 而三星 Uboot 中重定位是从 Flash 中把 Uboot 加载到 DDR 中去。
 
  除了上述提到了几点不同以外，Uboot 代码的其他部分功能基本大差不差。
 
@@ -50,7 +56,7 @@ imx 文件是在 bin 文件的基础上加上了一个头部。
 
 不需要特地记忆具体都做了什么，只要知道整个不同阶段的流程以及运行在哪，如何进入下个阶段即可。
 
-#### I .MX6ULL 的最终可烧写文件组成如下
+#### I .MX6ULL 的最终可烧写文件组成
 
 ①、 Image vector table，简称 IVT， IVT 里面包含了一系列的地址信息，这些地址信息在 ROM 中按照固定的地址存放着。
 
@@ -93,11 +99,14 @@ imx 文件是在 bin 文件的基础上加上了一个头部。
 - 运行介质：外部 DDR
 	- 为什么: IMX 6 ULL 中板子上电后 boot ROM 程序会从启动设备上读出 DCD 数据，根据 DCD 初始化了 ddr
 - 功能：
+- 主要完成板级初始化、emmc初始化、控制台初始化、中断初始化及网络初始化等
 	- 初始化本阶段要使用的硬件设备(CPU中断, 系统时钟,定时器, 检查flash, 串口初始化, 检测系统内存映射)
 	- 检测系统内存映射
 	- 将内核映像和根文件系统映像从 flash 上读到 RAM 空间中
 	- 为内核设置启动参数
 	- 调用内核, 至少初始化串口用于调试
+
+![image.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/20250111195438.png)
 
 ### 传统芯片 Uboot 启动方式概要
 
@@ -129,7 +138,12 @@ imx 文件是在 bin 文件的基础上加上了一个头部。
 - 功能：Uboot 的完整功能，完成全面的硬件初始化和加载OS到内存中，接着运行OS.
 
 	
-## IMX6ULL Uboot 详细启动过程
+## IMX6ULL Uboot 详细启动过程（待完成）
+
+参考：[u-boot启动流程分析-史上最全最详细_u-boot 2023-CSDN博客](https://blog.csdn.net/Wang_XB_3434/article/details/130979224)
+
+![image.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/20250111200020.png)
+
 ### 一些主要问题
 - 为什么 uboot 先是在 DDR 起始地址运行，再挪到后面，不能把 uboot 一开始就搬到后面去？
 	- DDR 的起始地址（CONFIG\_SYS\_TEXT\_BASE）程序运行前就可以知道，重定位后的地址 gd->relocaddr 需要根据自身大小等信息计算出来
