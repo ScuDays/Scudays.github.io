@@ -1,8 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux的设备模型",
+      "path": "Embedded Linux/Linux的设备模型.md"
+    },
+    {
+      "basename": "Lab：System calls",
+      "path": "6S081/Lab/Lab：System calls.md"
+    },
+    {
+      "basename": "Lab：page tables",
+      "path": "6S081/Lab/Lab：page tables.md"
+    },
+    {
+      "basename": "Lab：Multithreading",
+      "path": "6S081/Lab/Lab：Multithreading.md"
+    },
+    {
+      "basename": "Lab：Copy-on-Write Fork for xv6",
+      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
+    },
+    {
+      "basename": "Lab：lazy page allocation",
+      "path": "6S081/Lab/Lab：lazy page allocation.md"
+    },
+    {
+      "basename": "Lec08：Page faults (Frans)",
+      "path": "6S081/Lecture/Lec08：Page faults (Frans).md"
+    },
+    {
+      "basename": "Lec13：Sleep & Wake up (Robert)",
+      "path": "6S081/Lecture/Lec13：Sleep & Wake up (Robert).md"
+    },
+    {
+      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
+      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
+    },
+    {
+      "basename": "平台设备驱动框架",
+      "path": "Embedded Linux/平台设备驱动框架.md"
+    },
+    {
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
+    },
+    {
+      "basename": "链接",
+      "path": "computer basic/链接.md"
+    },
+    {
+      "basename": "C 文件的编译过程",
+      "path": "computer basic/C 文件的编译过程.md"
+    },
+    {
       "basename": "Linux嵌入式环境配置（全面避坑）",
       "path": "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md"
+    },
+    {
+      "basename": "学习路线",
+      "path": "_杂念/学习路线.md"
     },
     {
       "basename": "构建deb软件安装包",
@@ -65,10 +121,6 @@
       "path": "Embedded Linux/Linux通配符.md"
     },
     {
-      "basename": "Linux文件目录",
-      "path": "Embedded Linux/Linux文件目录.md"
-    },
-    {
       "basename": "Linux系统简介",
       "path": "Embedded Linux/Linux系统简介.md"
     },
@@ -77,24 +129,8 @@
       "path": "Embedded Linux/Shell脚本编程.md"
     },
     {
-      "basename": "C 文件的编译过程",
-      "path": "computer basic/C 文件的编译过程.md"
-    },
-    {
       "basename": "交叉编译",
       "path": "Embedded Linux/交叉编译.md"
-    },
-    {
-      "basename": "链接",
-      "path": "computer basic/链接.md"
-    },
-    {
-      "basename": "学习路线",
-      "path": "_杂念/学习路线.md"
-    },
-    {
-      "basename": "Lec06：Isolation & system call entry!exit (Robert)",
-      "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
     },
     {
       "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",
@@ -105,20 +141,8 @@
       "path": "6S081/Lab/Lab：Unix utilities.md"
     },
     {
-      "basename": "Lab：page tables",
-      "path": "6S081/Lab/Lab：page tables.md"
-    },
-    {
-      "basename": "Lab：Multithreading",
-      "path": "6S081/Lab/Lab：Multithreading.md"
-    },
-    {
       "basename": "Lab：lock",
       "path": "6S081/Lab/Lab：lock.md"
-    },
-    {
-      "basename": "Lab：Copy-on-Write Fork for xv6",
-      "path": "6S081/Lab/Lab：Copy-on-Write Fork for xv6.md"
     },
     {
       "basename": "note-computer-basic",
@@ -127,10 +151,6 @@
     {
       "basename": "Lec10：Multiprocessors and locking (Frans)",
       "path": "6S081/Lecture/Lec10：Multiprocessors and locking (Frans).md"
-    },
-    {
-      "basename": "Lec08：Page faults (Frans)",
-      "path": "6S081/Lecture/Lec08：Page faults (Frans).md"
     },
     {
       "basename": "Lec04：Page tables (Frans)",
@@ -169,10 +189,6 @@
       "path": "6S081/Lecture/Lec11：Thread switching (Robert).md"
     },
     {
-      "basename": "Lec13：Sleep & Wake up (Robert)",
-      "path": "6S081/Lecture/Lec13：Sleep & Wake up (Robert).md"
-    },
-    {
       "basename": "Linux命令行",
       "path": "常用命令/Linux命令行.md"
     },
@@ -181,24 +197,8 @@
       "path": "6S081/Lab/Lab：traps.md"
     },
     {
-      "basename": "Lab：System calls",
-      "path": "6S081/Lab/Lab：System calls.md"
-    },
-    {
-      "basename": "Lab：lazy page allocation",
-      "path": "6S081/Lab/Lab：lazy page allocation.md"
-    },
-    {
       "basename": "2024-12-23记",
       "path": "日记/2024-12-23记.md"
-    },
-    {
-      "basename": "日记",
-      "path": "_模板/日记.md"
-    },
-    {
-      "basename": "Lab：page tables",
-      "path": "docs/6S081/Lab/Lab：page tables.md"
     }
   ],
   "omittedPaths": [],
