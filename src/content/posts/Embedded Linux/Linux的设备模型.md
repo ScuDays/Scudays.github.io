@@ -214,3 +214,72 @@ void device_unregister(struct device *dev);
 ***
 
 当成功注册总线时，会在/sys/bus目录下创建对应总线的目录，该目录下有两个子目录，分别是drivers和devices， 我们使用device_register注册的设备从属于某个总线时，该总线的devices目录下便会存在该设备文件。
+
+## 六、驱动
+
+### （一）驱动有关代码
+
+#### 数据结构
+
+在内核中，使用device_driver结构体来描述我们的驱动，如下所示：
+
+```c
+struct device_driver {
+        const char              *name;
+        struct bus_type         *bus;
+        struct module           *owner;
+        const char              *mod_name;      /* used for built-in modules */
+        bool suppress_bind_attrs;       /* disables bind/unbind via sysfs */
+        const struct of_device_id       *of_match_table;
+        const struct acpi_device_id     *acpi_match_table;
+        int (*probe) (struct device *dev);
+        int (*remove) (struct device *dev);
+        const struct attribute_group **groups;
+        struct driver_private *p;
+};
+```
+- **name** :指定驱动名称，总线进行匹配时，利用该成员与设备名进行比较；
+    
+- **bus** :表示该驱动依赖于哪个总线，内核需要保证在驱动执行之前，对应的总线能够正常工作；
+    
+- **suppress_bind_attrs** :布尔量，用于指定是否通过sysfs导出bind与unbind文件，bind与unbind文件是驱动用于绑定/解绑关联的设备。
+	
+- **owner** :表示该驱动的拥有者，一般设置为THIS_MODULE；
+    
+- **of_match_table** :指定该驱动支持的设备类型。当内核使能设备树时，会利用该成员与设备树中的compatible属性进行比较。
+    
+- **remove** :当设备从操作系统中拔出或者是系统重启时，会调用该回调函数；
+    
+- **probe** :当驱动以及设备匹配后，会执行该回调函数，对设备进行初始化。通常的代码，都是以main函数开始执行的，但是在内核的驱动代码，都是从probe函数开始的。
+    
+- **group** :指向struct attribute_group类型的指针，指定该驱动的属性；
+#### 注册/注销驱动
+
+内核提供了driver_register函数以及driver_unregister函数来注册/注销驱动，成功注册的驱动会记录在/sys/bus/\<bus\>/drivers目录，函数原型如下所示：
+
+- 注册驱动
+```c
+int driver_register(struct device_driver *drv);
+```
+**参数：** **drv** :struct device_driver结构体类型指针
+**返回值：**
+- **成功：** 0
+- **失败：** 负数
+***
+- 注销驱动
+```c
+void driver_unregister(struct device_driver *drv);
+```
+
+**参数：** **drv** :struct device_drive结构体类型指针
+**返回值：** **无**
+
+## 总线、设备、驱动数据结构关系图
+
+![image.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/20250201154009.png)
+
+## 驱动注册流程
+
+![image.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/20250201154343.png)
+
+系统启动之后会调用buses_init函数创建/sys/bus文件目录，这部分系统在开机时已经帮我们准备好了， 接下去就是通过总线注册函数bus_register进行总线注册，注册完总线后在总线的目录下生成devices文件夹和drivers文件夹， 最后分别通过device_register以及driver_register函数注册相对应的设备和驱动。

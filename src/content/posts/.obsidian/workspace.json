@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "29e9d161c85f19a4",
@@ -246,7 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,7 +264,7 @@
       "obsidian-tag-suggest:为当前文档推荐标签": false
     }
   },
-  "active": "24fe8a4ec8c6e7b7",
+  "active": "93915358dd6ed6f9",
   "lastOpenFiles": [
     "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md",
     "Embedded Linux/Linux环境变量.md",
