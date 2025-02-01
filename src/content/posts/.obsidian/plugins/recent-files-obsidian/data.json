@@ -5,6 +5,66 @@
       "path": "Embedded Linux/Linux的设备模型.md"
     },
     {
+      "basename": "Linux嵌入式环境配置（全面避坑）",
+      "path": "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md"
+    },
+    {
+      "basename": "Linux环境变量",
+      "path": "Embedded Linux/Linux环境变量.md"
+    },
+    {
+      "basename": "平台设备驱动框架",
+      "path": "Embedded Linux/平台设备驱动框架.md"
+    },
+    {
+      "basename": "Makefile",
+      "path": "Embedded Linux/Makefile.md"
+    },
+    {
+      "basename": "需要整理",
+      "path": "RTOS/需要整理.md"
+    },
+    {
+      "basename": "Uboot学习过程",
+      "path": "Embedded Linux/Uboot学习过程.md"
+    },
+    {
+      "basename": "Uboot",
+      "path": "Embedded Linux/Uboot.md"
+    },
+    {
+      "basename": "Shell脚本编程",
+      "path": "Embedded Linux/Shell脚本编程.md"
+    },
+    {
+      "basename": "Linux系统简介",
+      "path": "Embedded Linux/Linux系统简介.md"
+    },
+    {
+      "basename": "Linux文件目录",
+      "path": "Embedded Linux/Linux文件目录.md"
+    },
+    {
+      "basename": "Linux通配符",
+      "path": "Embedded Linux/Linux通配符.md"
+    },
+    {
+      "basename": "构建deb软件安装包",
+      "path": "Embedded Linux/构建deb软件安装包.md"
+    },
+    {
+      "basename": "交叉编译",
+      "path": "Embedded Linux/交叉编译.md"
+    },
+    {
+      "basename": "学习过程",
+      "path": "Embedded Linux/学习过程.md"
+    },
+    {
+      "basename": "需要整理",
+      "path": "Embedded Linux/需要整理.md"
+    },
+    {
       "basename": "Lab：System calls",
       "path": "6S081/Lab/Lab：System calls.md"
     },
@@ -37,14 +97,6 @@
       "path": "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md"
     },
     {
-      "basename": "平台设备驱动框架",
-      "path": "Embedded Linux/平台设备驱动框架.md"
-    },
-    {
-      "basename": "Linux文件目录",
-      "path": "Embedded Linux/Linux文件目录.md"
-    },
-    {
       "basename": "链接",
       "path": "computer basic/链接.md"
     },
@@ -53,40 +105,8 @@
       "path": "computer basic/C 文件的编译过程.md"
     },
     {
-      "basename": "Linux嵌入式环境配置（全面避坑）",
-      "path": "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md"
-    },
-    {
       "basename": "学习路线",
       "path": "_杂念/学习路线.md"
-    },
-    {
-      "basename": "构建deb软件安装包",
-      "path": "Embedded Linux/构建deb软件安装包.md"
-    },
-    {
-      "basename": "Linux环境变量",
-      "path": "Embedded Linux/Linux环境变量.md"
-    },
-    {
-      "basename": "学习过程",
-      "path": "Embedded Linux/学习过程.md"
-    },
-    {
-      "basename": "需要整理",
-      "path": "Embedded Linux/需要整理.md"
-    },
-    {
-      "basename": "Makefile",
-      "path": "Embedded Linux/Makefile.md"
-    },
-    {
-      "basename": "Uboot",
-      "path": "Embedded Linux/Uboot.md"
-    },
-    {
-      "basename": "需要整理",
-      "path": "RTOS/需要整理.md"
     },
     {
       "basename": "note-RTOS",
@@ -105,32 +125,12 @@
       "path": "_模板/杂念.md"
     },
     {
-      "basename": "Uboot学习过程",
-      "path": "Embedded Linux/Uboot学习过程.md"
-    },
-    {
       "basename": "Astro配置与解析",
       "path": "Tools/Astro配置与解析.md"
     },
     {
       "basename": "知识漏洞",
       "path": "_杂念/知识漏洞.md"
-    },
-    {
-      "basename": "Linux通配符",
-      "path": "Embedded Linux/Linux通配符.md"
-    },
-    {
-      "basename": "Linux系统简介",
-      "path": "Embedded Linux/Linux系统简介.md"
-    },
-    {
-      "basename": "Shell脚本编程",
-      "path": "Embedded Linux/Shell脚本编程.md"
-    },
-    {
-      "basename": "交叉编译",
-      "path": "Embedded Linux/交叉编译.md"
     },
     {
       "basename": "Lec05：Calling conventions and stack frames RISC-V (TA)",

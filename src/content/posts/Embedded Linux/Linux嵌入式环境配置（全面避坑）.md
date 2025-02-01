@@ -42,6 +42,18 @@ description: ubuntu-vscode-linux驱动开发环境配置
 
 [IMX6:内核编译报错/bin/sh: 1: lzop: not found-CSDN博客](https://blog.csdn.net/yueni_zhao/article/details/135690130)
 
+# vscode 远程连接虚拟机可双向 ping 通却无法写入指定的管道
+
+参考 [【linux】VSCode连接VMware Linux 过程试图写入的管道不存在_linux_松鼠不吃桂鱼-华为开发者空间](https://huaweicloud.csdn.net/67122f280636ea24a0c1613d.html)
+
+- 原因 ：known_hosts 文件内容没有更新
+
+如果 ssh 重新生成密钥后，之前 known_hosts 文件内容没有更新，又不会自动覆盖，需要把该文件内容清空。
+
+- 解决
+
+C:\Users\gdfangxy. ssh（主机内 SSH 的地址，每个人不同）内的 known_hosts 文件，清除文件内的所有内容，再重新连接。
+
 # vscode 远程连接基于clangd实现内核/外部代码跳转
 ## 参考实现
 
