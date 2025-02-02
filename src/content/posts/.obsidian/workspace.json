@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f594d1ccd425ba4",
+        "id": "d255a49e1b37f68a",
         "type": "tabs",
         "children": [
           {
-            "id": "24fe8a4ec8c6e7b7",
+            "id": "27400307f421f4cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded Linux/Linux的设备模型.md",
+                "file": "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux的设备模型"
+              "title": "正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0e38d9a2cdce5106",
@@ -97,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "bfc5138eefd19587",
@@ -267,8 +265,10 @@
   "active": "93915358dd6ed6f9",
   "lastOpenFiles": [
     "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md",
-    "Embedded Linux/Linux环境变量.md",
+    "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md",
     "Embedded Linux/Linux的设备模型.md",
+    "【正点原子】I.MX6U网络环境TFTP&amp;amp;NFS搭建手册V1.1.pdf",
+    "Embedded Linux/Linux环境变量.md",
     "Embedded Linux/平台设备驱动框架.md",
     "Embedded Linux/Makefile.md",
     "RTOS/需要整理.md",
@@ -291,8 +291,6 @@
     "6S081/Lecture/Lec08：Page faults (Frans).md",
     "6S081/Lecture/Lec13：Sleep & Wake up (Robert).md",
     "6S081/Lecture/Lec06：Isolation & system call entry!exit (Robert).md",
-    "computer basic/链接.md",
-    "computer basic/C 文件的编译过程.md",
     "RTOS",
     " 1/867145-20221207212806224-17146666.png",
     " 1/867145-20221207211343966-1705082488.png",
@@ -311,7 +309,6 @@
     "Clippings",
     "_杂念",
     "computer basic",
-    "Tools",
     "未命名.canvas"
   ]
 }

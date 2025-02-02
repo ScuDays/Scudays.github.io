@@ -8,13 +8,19 @@ published: 2025-01-25
 draft: false
 description: ubuntu-vscode-linux驱动开发环境配置
 ---
+# 开发板 Ping 不通虚拟机和主机
+
+ [开发板Ping不通虚拟机和主机](https://www.cnblogs.com/y4247464/p/10083038.html "发布于 2018-12-07 15:08")
+
 # Ubuntu Linux 内核降级或升级到指定版本，更新引导
 
 [Ubuntu Linux内核降级或升级到指定版本，更新引导 - 云吱 - 博客园](https://www.cnblogs.com/leebri/p/16786685.html)
 
-# Ubuntu 22.04版本无法挂载NFS V2的解决方法
+## NFS下载文件报错
 
 [Ubuntu 22.04版本无法挂载NFS V2的解决方法-OpenEdv-开源电子网](http://www.openedv.com/thread-345681-1-1.html)
+
+[u-boot NFS下载文件报错：Loading: *** ERROR: File lookup fail解决方法-CSDN博客](https://blog.csdn.net/polaris_zgx/article/details/103571725)
 
 # vscode免密连接ubuntu虚拟机
 
