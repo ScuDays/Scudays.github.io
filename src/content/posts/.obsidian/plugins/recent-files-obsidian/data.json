@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统",
-      "path": "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md"
+      "basename": "第一个Linux驱动",
+      "path": "Embedded Linux/第一个Linux驱动.md"
+    },
+    {
+      "basename": "构建deb软件安装包",
+      "path": "Embedded Linux/构建deb软件安装包.md"
     },
     {
       "basename": "Linux嵌入式环境配置（全面避坑）",
       "path": "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md"
+    },
+    {
+      "basename": "正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统",
+      "path": "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md"
     },
     {
       "basename": "Linux的设备模型",
@@ -51,10 +59,6 @@
     {
       "basename": "Linux通配符",
       "path": "Embedded Linux/Linux通配符.md"
-    },
-    {
-      "basename": "构建deb软件安装包",
-      "path": "Embedded Linux/构建deb软件安装包.md"
     },
     {
       "basename": "交叉编译",

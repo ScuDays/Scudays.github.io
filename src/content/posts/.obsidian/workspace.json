@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md",
+                "file": "Embedded Linux/第一个Linux驱动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统"
+              "title": "第一个Linux驱动"
             }
           }
         ]
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 265.50390243530273
   },
   "right": {
     "id": "bfc5138eefd19587",
@@ -262,8 +262,10 @@
       "obsidian-tag-suggest:为当前文档推荐标签": false
     }
   },
-  "active": "93915358dd6ed6f9",
+  "active": "27400307f421f4cb",
   "lastOpenFiles": [
+    "Embedded Linux/构建deb软件安装包.md",
+    "Embedded Linux/第一个Linux驱动.md",
     "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md",
     "Embedded Linux/正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统.md",
     "Embedded Linux/Linux的设备模型.md",
@@ -278,7 +280,6 @@
     "Embedded Linux/Linux系统简介.md",
     "Embedded Linux/Linux文件目录.md",
     "Embedded Linux/Linux通配符.md",
-    "Embedded Linux/构建deb软件安装包.md",
     "Embedded Linux/交叉编译.md",
     "Embedded Linux/学习过程.md",
     "Embedded Linux/需要整理.md",

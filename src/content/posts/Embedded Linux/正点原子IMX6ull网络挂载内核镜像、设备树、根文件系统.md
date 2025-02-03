@@ -24,12 +24,32 @@ description: 使用网络挂载内核镜像、设备树、根文件系统
 
 ## 配置 tftp
 
-![1.jpg](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E3%80%90%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E3%80%91I.MX6U%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83TFTP&amp;amp;NFS%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8CV1.1_page-0053.jpg)
+![0053.png|493](https://raw.githubusercontent.com/ScuDays/MyImg/master/0053.png)
 
-![](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E3%80%90%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E3%80%91I.MX6U%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83TFTP&amp;amp;NFS%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8CV1.1_page-0054.jpg)
+![0054.png|493](https://raw.githubusercontent.com/ScuDays/MyImg/master/0054.png)
 
-![【正点原子】I.MX6U网络环境TFTP&amp;amp;NFS搭建手册V1.1_page-0055.jpg](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E3%80%90%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E3%80%91I.MX6U%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83TFTP&amp;amp;NFS%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8CV1.1_page-0055.jpg)
+![0055.png|493](https://raw.githubusercontent.com/ScuDays/MyImg/master/0055.png)
 
-![](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E3%80%90%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E3%80%91I.MX6U%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83TFTP&amp;amp;NFS%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8CV1.1_pag056.jpg)
+![0056.png|493](https://raw.githubusercontent.com/ScuDays/MyImg/master/0056.png)
 
-![](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E3%80%90%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E3%80%91I.MX6U%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83TFTP&amp;amp;NFS%E6%90%AD%E5%BB%BA%E6%89%8B%E5%86%8CV1.1_page-0057.jpg)
+![0057.png|493](https://raw.githubusercontent.com/ScuDays/MyImg/master/00571.png)
+
+## 配置 nfs
+
+![58.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/58.png)
+
+![59.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/59.png)
+
+![60.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/60.png)
+
+## 网络挂载
+
+![61.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/61.png)
+
+![62.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/62.png)
+
+![63.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/63.png)
+
+![64.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/64.png)
+
+![65.png](https://raw.githubusercontent.com/ScuDays/MyImg/master/65.png)
