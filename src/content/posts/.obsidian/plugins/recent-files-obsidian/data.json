@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "第一个Linux驱动",
-      "path": "Embedded Linux/第一个Linux驱动.md"
-    },
-    {
-      "basename": "构建deb软件安装包",
-      "path": "Embedded Linux/构建deb软件安装包.md"
-    },
-    {
       "basename": "Linux嵌入式环境配置（全面避坑）",
       "path": "Embedded Linux/Linux嵌入式环境配置（全面避坑）.md"
+    },
+    {
+      "basename": "Uboot",
+      "path": "Embedded Linux/Uboot.md"
+    },
+    {
+      "basename": "Uboot学习过程",
+      "path": "Embedded Linux/Uboot学习过程.md"
     },
     {
       "basename": "正点原子IMX6ull网络挂载内核镜像、设备树、根文件系统",
@@ -19,6 +19,18 @@
     {
       "basename": "Linux的设备模型",
       "path": "Embedded Linux/Linux的设备模型.md"
+    },
+    {
+      "basename": "Lec09：Interrupts (Frans)(外部中断)",
+      "path": "6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md"
+    },
+    {
+      "basename": "第一个Linux驱动",
+      "path": "Embedded Linux/第一个Linux驱动.md"
+    },
+    {
+      "basename": "构建deb软件安装包",
+      "path": "Embedded Linux/构建deb软件安装包.md"
     },
     {
       "basename": "Linux环境变量",
@@ -35,14 +47,6 @@
     {
       "basename": "需要整理",
       "path": "RTOS/需要整理.md"
-    },
-    {
-      "basename": "Uboot学习过程",
-      "path": "Embedded Linux/Uboot学习过程.md"
-    },
-    {
-      "basename": "Uboot",
-      "path": "Embedded Linux/Uboot.md"
     },
     {
       "basename": "Shell脚本编程",
@@ -179,10 +183,6 @@
     {
       "basename": "Lec01：Introduction and Examples (Robert)",
       "path": "6S081/Lecture/Lec01：Introduction and Examples (Robert).md"
-    },
-    {
-      "basename": "Lec09：Interrupts (Frans)(外部中断)",
-      "path": "6S081/Lecture/Lec09：Interrupts (Frans)(外部中断).md"
     },
     {
       "basename": "Lec15：Crash recovery (Frans)",

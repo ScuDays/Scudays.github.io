@@ -65,6 +65,10 @@ C:\Users\gdfangxy. ssh（主机内 SSH 的地址，每个人不同）内的 know
 
 [在Windows使用VSCode搭建嵌入式Linux开发环境_windows怎么编译linux驱动-CSDN博客](https://blog.csdn.net/thisway_diy/article/details/127556249)
 
+# vscode 中 clangd 忽略 gcc 参数爆错
+
+![交叉编译环境配置.jpeg](https://raw.githubusercontent.com/ScuDays/MyImg/master/%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.jpeg)
+
 ## 在建立阅读外部代码的环境时 ？为什么需要把内核目录保存为工作区之后，再把外部代码添加到工作区呢？
 
 ### **1\. 内核与驱动的依赖关系**
